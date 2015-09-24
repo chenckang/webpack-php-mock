@@ -12,3 +12,9 @@ The purpose of this project is:
 And so on.
 
 To be continue.
+
+
+
+# License
+
+MIT (http://www.opensource.org/licenses/mit-license.php)
