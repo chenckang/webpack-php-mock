@@ -1,13 +1,12 @@
 'use strict';
 
 require('shelljs/global');
-
+var fs = require('fs');
 var gulp = require('gulp');
 var path = require('path');
 var compiler = require('./compiler');
 var config = require('./config');
 var server = require('./server');
-
 var connect = require('gulp-connect-php');
 var webpackConfig = require('../webpack.config.js');
 var resolveRoot = webpackConfig.resolve.root;
@@ -27,9 +26,12 @@ gulp.task('deploy', ['compile'], function () {
     defaultDeploy.forEach(function (item, to, arr) {
         var fm = path.join(config.output, item.from);
         var to = path.join(__dirname, item.to);
+        
+        if (!fs.existsSync(to)){
+            mkdir('-p', to);
+        }
 
         console.log('Deploy ' + fm + ' to ' + to);
-
         cp('-Rf', fm, to);
     });
 });
