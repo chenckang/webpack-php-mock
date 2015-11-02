@@ -1,5 +1,8 @@
 'use strict';
+
 // Need to use shell to do some simple deployment
+require('shelljs/global');
+var fs = require('fs');
 var gulp = require('gulp');
 require('shelljs/global');
 var path = require('path');
@@ -9,9 +12,6 @@ var cwdSpace = process.cwd();
 var config = require(path.join(cwdSpace, 'wpm.config'));
 var webpackConfig = require(path.join(cwdSpace, 'webpack.config.js'));
 
-// Base on gulp
-
-// The webpack compiler instance
 var server = require('./server');
 // Gulp plugin for connecting to php-cgi
 var connect = require('gulp-connect-php');
