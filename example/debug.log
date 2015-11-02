@@ -1,0 +1,1103 @@
+Hash: 182633a7a24aae715b9c
+Version: webpack 1.12.2
+Time: 41373ms
+        Asset     Size  Chunks             Chunk Names
+      main.js  1.54 MB       0  [emitted]  main
+    common.js   223 kB       1  [emitted]  common
+    module.js   166 kB       2  [emitted]  module
+  main.js.map  10.9 MB       0  [emitted]  main
+common.js.map  1.93 MB       1  [emitted]  common
+module.js.map  1.53 MB       2  [emitted]  module
+   [0] multi common 52 bytes {1} [built]
+    + 974 hidden modules
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/fsevents.js
+Critical dependencies:
+11:13-71 the request of a dependency is an expression
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/fsevents.js 11:13-71
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/nw-pre-gyp/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+| "main": "index.html",
+| "name": "nw-pre-gyp-module-test",
+| "description": "Node-webkit-based module test.",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/pre-binding.js
+Critical dependencies:
+19:22-48 the request of a dependency is an expression
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/pre-binding.js 19:22-48
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/abi_crosswalk.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "0.8.0": {
+|     "node_abi": 1,
+|     "v8": "3.11"
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/versioning.js
+Critical dependencies:
+15:20-67 the request of a dependency is an expression
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/versioning.js 15:20-67
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js
+Module not found: Error: Cannot resolve module 'node-gyp' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js 29:28-55
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js
+Module not found: Error: Cannot resolve module 'npm' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js 39:27-49
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces/utils.js
+Critical dependencies:
+3:34-41 require function is used in a way in which dependencies cannot be statically extracted
+ @ (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces/utils.js 3:34-41
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/nw-pre-gyp/index.html
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/index.html Line 1: Unexpected token <
+You may need an appropriate loader to handle this file type.
+| <!doctype html>
+| <html>
+| <head>
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "name": "fsevents",
+|   "version": "1.0.2",
+|   "description": "Native Access to Mac OS-X FSEvents",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/LICENSE
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/LICENSE Line 1: Unexpected identifier
+You may need an appropriate loader to handle this file type.
+| MIT License
+| -----------
+| 
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/CHANGELOG.md
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/CHANGELOG.md Line 1: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| # Native Access to Mac OS-X FSEvents - Change-Log
+| 
+| ## Version 0.0.1
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/Readme.md
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/Readme.md Line 1: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| # FSEvents [![NPM](https://nodei.co/npm/fsevents.png)](https://nodei.co/npm/fsevents/)
+| ## Native Access to Mac OS-X FSEvents
+| 
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/binding.gyp
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/binding.gyp Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "targets": [
+|     { "target_name": "" }
+|   ],
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/fsevents.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/fsevents.cc Line 6: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| */
+| 
+| #include "nan.h"
+| #include "uv.h"
+| #include "v8.h"
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/src/async.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/src/async.cc Line 7: Unexpected token {
+You may need an appropriate loader to handle this file type.
+| 
+| 
+| void async_propagate(uv_async_t *async) {
+|   if (!async->data) return;
+|   FSEvents *fse = (FSEvents *)async->data;
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/src/constants.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/src/constants.cc Line 7: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| 
+| // constants from https://developer.apple.com/library/mac/documentation/Darwin/Reference/FSEvents_Ref/index.html#//apple_ref/doc/constant_group/FSEventStreamEventFlags
+| #ifndef kFSEventStreamEventFlagNone
+| #define kFSEventStreamEventFlagNone 0x00000000
+| #endif
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/src/locking.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/src/locking.cc Line 6: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| */
+| 
+| void FSEvents::lockingStart() {
+|   if (lockStarted) return;
+|   lockStarted = true;
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/src/methods.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/src/methods.cc Line 6: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| */
+| 
+| void FSEvents::emitEvent(const char *path, UInt32 flags, UInt64 id) {
+|   if (!handler) return;
+|   Nan::HandleScope handle_scope;
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/src/storage.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/src/storage.cc Line 6: Unexpected identifier
+You may need an appropriate loader to handle this file type.
+|  */
+| 
+| struct fse_event {
+|   UInt64 id;
+|   UInt32 flags;
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/src/thread.cc
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/src/thread.cc Line 7: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| 
+| // constants from https://developer.apple.com/library/mac/documentation/Darwin/Reference/FSEvents_Ref/index.html#//apple_ref/doc/constant_group/FSEventStreamCreateFlags
+| #ifndef kFSEventStreamCreateFlagNone
+| #define kFSEventStreamCreateFlagNone 0x00000000
+| #endif
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/test/fsevents.js
+Critical dependencies:
+23:11-21 the request of a dependency is an expression
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/test/fsevents.js 23:11-21
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/anymatch/node_modules/micromatch/node_modules/braces/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "name": "braces",
+|   "description": "Fastest brace expansion for node.js, with the most complete support for the Bash 4.3 braces specification.",
+|   "version": "1.8.2",
+ @ (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node Line 1: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+(Source code omitted for this binary file)
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces/README.md
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/anymatch/node_modules/micromatch/node_modules/braces/README.md Line 1: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| # braces [![NPM version](https://badge.fury.io/js/braces.svg)](http://badge.fury.io/js/braces)
+| 
+| > Fastest brace expansion for node.js, with the most complete support for the Bash 4.3 braces specification.
+ @ (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces/LICENSE
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/anymatch/node_modules/micromatch/node_modules/braces/LICENSE Line 1: Unexpected identifier
+You may need an appropriate loader to handle this file type.
+| The MIT License (MIT)
+| 
+| Copyright (c) 2014-2015, Jon Schlinkert.
+ @ (webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/minimatch.js
+Critical dependencies:
+6:5-12 require function is used in a way in which dependencies cannot be statically extracted
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/minimatch.js 6:5-12
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "author": {
+|     "name": "Isaac Z. Schlueter",
+|     "email": "i@izs.me",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/LICENSE
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/LICENSE Line 1: Unexpected number
+You may need an appropriate loader to handle this file type.
+| Copyright 2009, 2010, 2011 Isaac Z. Schlueter.
+| All rights reserved.
+| 
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/README.md
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/README.md Line 1: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| # minimatch
+| 
+| A minimal matching utility.
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/fs.js
+Critical dependencies:
+11:12-19 require function is used in a way in which dependencies cannot be statically extracted
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/fs.js 11:12-19
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "author": {
+|     "name": "Isaac Z. Schlueter",
+|     "email": "i@izs.me",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/LICENSE
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/LICENSE Line 1: Unexpected identifier
+You may need an appropriate loader to handle this file type.
+| The ISC License
+| 
+| Copyright (c) Isaac Z. Schlueter and Contributors
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs ^\.\/.*$
+
+WARNING in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/README.md
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/README.md Line 1: Unexpected token ILLEGAL
+You may need an appropriate loader to handle this file type.
+| # graceful-fs
+| 
+| graceful-fs functions as a drop-in replacement for the fs module,
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs ^\.\/.*$
+
+WARNING in main.js from UglifyJs
+Side effects in initialization of unused variable style [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/npmlog/log.js:183,0]
+Dropping unused variable sawEnd [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/minimatch.js:357,0]
+Condition always true [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/minimatch.js:1053,0]
+Side effects in initialization of unused variable EventEmitter [(webpack)/~/node-libs-browser/~/http-browserify/index.js:2,0]
+Side effects in initialization of unused variable sourceMap [(webpack)/~/webpack-core/lib/OriginalSource.js:55,0]
+Side effects in initialization of unused variable SourceMapConsumer [(webpack)/~/webpack-core/lib/OriginalSource.js:6,0]
+Side effects in initialization of unused variable SourceNode [(webpack)/~/webpack-core/lib/Source.js:5,0]
+Side effects in initialization of unused variable SourceMapConsumer [(webpack)/~/webpack-core/lib/Source.js:6,0]
+Condition always true [(webpack)/~/async/lib/async.js:1250,0]
+Dropping unreachable code [(webpack)/~/async/lib/async.js:1257,0]
+Side effects in initialization of unused variable mod [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/fs.js:5,0]
+Dropping unused function forEach [(webpack)/~/watchpack/~/chokidar/~/readdirp/~/readable-stream/lib/_stream_duplex.js:78,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/util.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/util.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/util.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/util.js:8,0]
+Dropping unused function forEach [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/bl/~/readable-stream/lib/_stream_duplex.js:78,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/util.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/util.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/util.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/util.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/util.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/util.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/util.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/util.js:8,0]
+Side effects in initialization of unused variable fs [(webpack)/~/enhanced-resolve/lib/ModuleAliasPlugin.js:15,0]
+Dropping unused variable self [(webpack)/~/node-libs-browser/~/browserify-zlib/src/index.js:494,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/util.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/util.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/util.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/util.js:8,0]
+Side effects in initialization of unused variable TarHeader [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/entry.js:9,0]
+Side effects in initialization of unused variable assert [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/entry.js:11,0]
+Side effects in initialization of unused variable TarHeader [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/entry.js:9,0]
+Side effects in initialization of unused variable assert [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/entry.js:11,0]
+Dropping unused function hotDownloadUpdateChunk [(webpack)/lib/node/NodeMainTemplate.runtime.js:7,0]
+Dropping unused function hotDownloadManifest [(webpack)/lib/node/NodeMainTemplate.runtime.js:12,0]
+Dropping unused function hotDownloadUpdateChunk [(webpack)/lib/node/NodeMainTemplateAsync.runtime.js:7,0]
+Dropping unused function hotDownloadManifest [(webpack)/lib/node/NodeMainTemplateAsync.runtime.js:22,0]
+Condition always true [(webpack)/~/node-libs-browser/~/punycode/punycode.js:511,0]
+Dropping unreachable code [(webpack)/~/node-libs-browser/~/punycode/punycode.js:518,2]
+Side effects in initialization of unused variable freeExports [(webpack)/~/node-libs-browser/~/punycode/punycode.js:5,0]
+Side effects in initialization of unused variable freeModule [(webpack)/~/node-libs-browser/~/punycode/punycode.js:7,0]
+Dropping unused variable key [(webpack)/~/node-libs-browser/~/punycode/punycode.js:56,0]
+Dropping side-effect-free statement [(webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/braces/utils.js:1,0]
+Condition always true [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/node-uuid/uuid.js:230,3]
+Dropping unreachable code [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/node-uuid/uuid.js:235,3]
+Declarations in unreachable code! [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/node-uuid/uuid.js:237,0]
+Dropping unused variable _previousRoot [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/node-uuid/uuid.js:237,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/array-set.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/array-set.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/array-set.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/array-set.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64-vlq.js:37,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-generator.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/array-set.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/array-set.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/array-set.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/array-set.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:37,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Side effects in initialization of unused variable Duplex [(webpack)/~/node-libs-browser/~/readable-stream/lib/_stream_readable.js:134,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/array-set.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/array-set.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/array-set.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/array-set.js:8,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:37,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Side effects in initialization of unused variable Duplex [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/npmlog/~/are-we-there-yet/~/readable-stream/lib/_stream_readable.js:134,0]
+Dropping unused variable internals [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/qs/lib/index.js:9,0]
+Dropping unused variable newPattern [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js:417,0]
+Dropping unused variable self [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js:518,0]
+Dropping unused variable exists [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js:698,0]
+Side effects in initialization of unused variable Minimatch [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js:45,0]
+Side effects in initialization of unused variable alphasort [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js:53,0]
+Side effects in initialization of unused variable alphasorti [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js:54,0]
+Side effects in initialization of unused variable next [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/basic.js:13,0]
+Side effects in initialization of unused variable next [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/defaults.js:13,0]
+Side effects in initialization of unused variable mkdir [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/dir-reader.js:11,0]
+Side effects in initialization of unused variable fs [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/dir-writer.js:9,0]
+Side effects in initialization of unused variable fstream [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/dir-writer.js:10,0]
+Side effects in initialization of unused variable mkdir [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/file-reader.js:9,0]
+Side effects in initialization of unused variable mkdir [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/file-writer.js:4,0]
+Side effects in initialization of unused variable fstream [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/link-reader.js:10,0]
+Side effects in initialization of unused variable mkdir [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/link-reader.js:12,0]
+Side effects in initialization of unused variable readdir [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/readdir-sort.js:4,0]
+Dropping unused variable dest [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/readable-stream/lib/_stream_readable.js:609,0]
+Side effects in initialization of unused variable ts [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/readable-stream/lib/_stream_transform.js:120,0]
+Side effects in initialization of unused variable rs [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/readable-stream/lib/_stream_transform.js:200,0]
+Side effects in initialization of unused variable tar [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/entry-writer.js:3,0]
+Side effects in initialization of unused variable Entry [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/entry-writer.js:5,0]
+Side effects in initialization of unused variable numeric [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/extended-header-writer.js:100,0]
+Side effects in initialization of unused variable debug [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/~/block-stream/block-stream.js:10,0]
+Side effects in initialization of unused variable tar [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/entry-writer.js:3,0]
+Side effects in initialization of unused variable Entry [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/entry-writer.js:5,0]
+Side effects in initialization of unused variable numeric [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/extended-header-writer.js:100,0]
+Side effects in initialization of unused variable debug [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/block-stream/block-stream.js:10,0]
+Side effects in initialization of unused variable Duplex [(webpack)/~/watchpack/~/chokidar/~/readdirp/~/readable-stream/lib/_stream_readable.js:132,0]
+Side effects in initialization of unused variable EE [(webpack)/~/watchpack/~/chokidar/~/readdirp/~/readable-stream/lib/_stream_readable.js:21,0]
+Dropping unused variable pending [(webpack)/~/watchpack/~/chokidar/~/readdirp/readdirp.js:38,0]
+Dropping unused function isRegExp [(webpack)/~/watchpack/~/chokidar/~/readdirp/readdirp.js:18,0]
+Side effects in initialization of unused variable SourceListMap [(webpack)/~/webpack-core/lib/ReplaceSource.js:7,0]
+Side effects in initialization of unused variable fromStringWithSourceMap [(webpack)/~/webpack-core/lib/ReplaceSource.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/array-set.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/array-set.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/array-set.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/array-set.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64-vlq.js:37,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64-vlq.js:38,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-generator.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-generator.js:8,0]
+Condition always true [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:29,13]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:29,88]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:29,152]
+Dropping unused variable f [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:29,152]
+Condition always false [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:307,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:307,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:308,0]
+Condition always false [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:378,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:379,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:380,0]
+Dropping unused variable maybeCaller [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:380,0]
+Side effects in initialization of unused variable isIdentifier [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:303,0]
+Dropping unused variable getMethodCaller [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:305,0]
+Dropping unused variable makeMethodCaller [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:308,0]
+Dropping unused variable makeGetter [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:326,0]
+Dropping unused variable getCompiled [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:333,0]
+Condition left of || always false [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1079,0]
+Condition always false [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1769,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1770,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1790,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1795,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1822,0]
+Condition always false [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1833,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1834,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1835,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1839,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1840,0]
+Dropping unused variable holder [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1837,0]
+Dropping unused variable callbacks [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1838,0]
+Dropping unused variable i [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1839,0]
+Dropping unused variable maybePromise [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1840,0]
+Side effects in initialization of unused variable canEvaluate [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1764,0]
+Side effects in initialization of unused variable tryCatch [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1765,0]
+Side effects in initialization of unused variable errorObj [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1766,0]
+Dropping unused variable reject [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1767,0]
+Dropping unused variable thenCallback [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1771,0]
+Dropping unused variable caller [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1779,0]
+Dropping unused variable thenCallbacks [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1788,0]
+Dropping unused variable callers [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1789,0]
+Dropping unused variable i [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1790,0]
+Dropping unused variable Holder [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1795,0]
+Dropping unused variable reject [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:1822,0]
+Condition always false [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3300,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3300,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3301,0]
+Dropping unused variable switchCaseArgumentOrder [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3301,0]
+Dropping unused variable argumentSequence [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3313,0]
+Dropping unused variable parameterDeclaration [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3317,0]
+Dropping unused variable parameterCount [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:3322,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/bluebird/js/browser/bluebird.js:4773,0]
+Condition always true [./~/html-webpack-plugin/~/blueimp-tmpl/js/tmpl.js:80,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/blueimp-tmpl/js/tmpl.js:85,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js:565,1]
+Condition always true [./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js:1121,0]
+Condition always true [./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js:586,0]
+Condition always true [./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js:1393,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js:1397,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js:1569,1]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/base64.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/binary-search.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/binary-search.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/binary-search.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/binary-search.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/mapping-list.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/mapping-list.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/mapping-list.js:8,0]
+Dropping unused variable mapping [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/mapping-list.js:57,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/mapping-list.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-consumer.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-node.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-node.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-node.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/clean-css/~/source-map/lib/source-map/source-node.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/base64.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/binary-search.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/binary-search.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/binary-search.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/binary-search.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Condition always false [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-node.js:7,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-node.js:8,0]
+Declarations in unreachable code! [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-node.js:8,0]
+Dropping unused variable define [./~/html-webpack-plugin/~/html-minifier/~/uglify-js/~/source-map/lib/source-map/source-node.js:8,0]
+Side effects in initialization of unused variable support [./~/html-webpack-plugin/~/lodash/index.js:932,0]
+Condition always true [./~/html-webpack-plugin/~/lodash/index.js:12323,0]
+Dropping unreachable code [./~/html-webpack-plugin/~/lodash/index.js:12337,0]
+Side effects in initialization of unused variable moduleExports [./~/html-webpack-plugin/~/lodash/index.js:266,0]
+Dropping unused function hotCreateRequire [(webpack)/lib/HotModuleReplacement.runtime.js:13,0]
+Dropping unused function hotCreateModule [(webpack)/lib/HotModuleReplacement.runtime.js:62,0]
+Dropping unused function hotSetStatus [(webpack)/lib/HotModuleReplacement.runtime.js:128,0]
+Dropping unused function toModuleId [(webpack)/lib/HotModuleReplacement.runtime.js:145,0]
+Dropping unused function hotCheck [(webpack)/lib/HotModuleReplacement.runtime.js:150,0]
+Dropping unused function hotAddUpdateChunk [(webpack)/lib/HotModuleReplacement.runtime.js:191,0]
+Dropping unused function hotEnsureUpdateChunk [(webpack)/lib/HotModuleReplacement.runtime.js:205,0]
+Dropping unused function hotUpdateDownloaded [(webpack)/lib/HotModuleReplacement.runtime.js:215,0]
+Dropping unused function hotApply [(webpack)/lib/HotModuleReplacement.runtime.js:233,0]
+Dropping unused variable hotApplyOnUpdate [(webpack)/lib/HotModuleReplacement.runtime.js:8,0]
+Side effects in initialization of unused variable hotCurrentHash [(webpack)/lib/HotModuleReplacement.runtime.js:9,0]
+Dropping unused variable hotCurrentModuleData [(webpack)/lib/HotModuleReplacement.runtime.js:10,0]
+Dropping unused variable hotCurrentParents [(webpack)/lib/HotModuleReplacement.runtime.js:11,0]
+Dropping unused variable hotStatusHandlers [(webpack)/lib/HotModuleReplacement.runtime.js:125,0]
+Dropping unused variable hotStatus [(webpack)/lib/HotModuleReplacement.runtime.js:126,0]
+Dropping unused variable hotWaitingFiles [(webpack)/lib/HotModuleReplacement.runtime.js:135,0]
+Dropping unused variable hotChunksLoading [(webpack)/lib/HotModuleReplacement.runtime.js:136,0]
+Dropping unused variable hotWaitingFilesMap [(webpack)/lib/HotModuleReplacement.runtime.js:137,0]
+Dropping unused variable hotRequestedFilesMap [(webpack)/lib/HotModuleReplacement.runtime.js:138,0]
+Dropping unused variable hotAvailibleFilesMap [(webpack)/lib/HotModuleReplacement.runtime.js:139,0]
+Dropping unused variable hotCallback [(webpack)/lib/HotModuleReplacement.runtime.js:140,0]
+Dropping unused variable hotUpdate [(webpack)/lib/HotModuleReplacement.runtime.js:143,0]
+Dropping unused variable hotUpdateNewHash [(webpack)/lib/HotModuleReplacement.runtime.js:143,0]
+Dropping unused function webpackHotUpdateCallback [(webpack)/lib/JsonpMainTemplate.runtime.js:7,0]
+Dropping unused function hotDownloadUpdateChunk [(webpack)/lib/JsonpMainTemplate.runtime.js:12,0]
+Dropping unused function hotDownloadManifest [(webpack)/lib/JsonpMainTemplate.runtime.js:21,0]
+Side effects in initialization of unused variable files [(webpack)/~/enhanced-resolve/lib/DirectoryResultPlugin.js:11,0]
+Side effects in initialization of unused variable fs [(webpack)/~/enhanced-resolve/lib/ModuleAsFilePlugin.js:12,0]
+Side effects in initialization of unused variable fs [(webpack)/~/enhanced-resolve/lib/ModuleTemplatesPlugin.js:18,0]
+Dropping unused variable currentError [(webpack)/~/enhanced-resolve/lib/Resolver.js:175,0]
+Side effects in initialization of unused variable missing [(webpack)/~/enhanced-resolve/lib/ResultSymlinkPlugin.js:25,0]
+Condition always true [(webpack)/~/esprima/esprima.js:32,0]
+Dropping unreachable code [(webpack)/~/esprima/esprima.js:34,5]
+Condition always false [(webpack)/~/node-libs-browser/~/buffer/~/base64-js/lib/b64.js:124,1]
+Condition always true [(webpack)/~/node-libs-browser/~/http-browserify/~/Base64/base64.js:3,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/base64.js:8,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/binary-search.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/binary-search.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/binary-search.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/binary-search.js:8,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Condition always false [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-node.js:7,0]
+Dropping unreachable code [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-node.js:8,0]
+Declarations in unreachable code! [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-node.js:8,0]
+Dropping unused variable define [(webpack)/~/uglify-js/~/source-map/lib/source-map/source-node.js:8,0]
+Condition always true [(webpack)/~/watchpack/~/async/lib/async.js:1113,0]
+Dropping unreachable code [(webpack)/~/watchpack/~/async/lib/async.js:1120,0]
+Side effects in initialization of unused variable isExtglob [(webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/extglob/index.js:14,0]
+Side effects in initialization of unused variable isPrimitive [(webpack)/~/watchpack/~/chokidar/~/anymatch/~/micromatch/~/regex-cache/index.js:10,0]
+Condition always true [(webpack)/~/watchpack/~/chokidar/~/async-each/index.js:29,0]
+Dropping unreachable code [(webpack)/~/watchpack/~/chokidar/~/async-each/index.js:33,3]
+Dropping unused variable key [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/nopt/lib/nopt.js:35,0]
+Dropping unused variable key [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/nopt/lib/nopt.js:231,0]
+Side effects in initialization of unused variable child_process [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/npmlog/~/gauge/~/has-unicode/index.js:3,0]
+Side effects in initialization of unused variable hasUnicode [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/npmlog/~/gauge/~/has-unicode/index.js:5,0]
+Side effects in initialization of unused variable Duplex [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/bl/~/readable-stream/lib/_stream_readable.js:131,0]
+Dropping unreachable code [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/index.js:28,0]
+Dropping unused variable isUndefined [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/~/is-my-json-valid/index.js:209,0]
+Dropping unused variable toType [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/~/is-my-json-valid/index.js:101,0]
+Side effects in initialization of unused variable http [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/http-signature/lib/signer.js:5,0]
+Side effects in initialization of unused variable newInvalidAsn1Error [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/http-signature/~/asn1/lib/ber/writer.js:10,0]
+Side effects in initialization of unused variable qs [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/oauth-sign/index.js:2,0]
+Side effects in initialization of unused variable net [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tunnel-agent/index.js:3,0]
+Dropping unused function identity [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/~/minimatch/~/brace-expansion/index.js:72,0]
+Side effects in initialization of unused variable abs [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:211,0]
+Dropping unused variable stat [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:238,0]
+Dropping unused variable entries [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:260,0]
+Dropping unused variable exists [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:422,0]
+Side effects in initialization of unused variable Minimatch [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:6,0]
+Side effects in initialization of unused variable Glob [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:7,0]
+Side effects in initialization of unused variable util [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:8,0]
+Side effects in initialization of unused variable alphasort [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:13,0]
+Side effects in initialization of unused variable alphasorti [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js:14,0]
+Side effects in initialization of unused variable parent [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/index.js:92,0]
+Side effects in initialization of unused variable base [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/index.js:93,0]
+Side effects in initialization of unused variable t [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/ignore.js:60,0]
+Side effects in initialization of unused variable fs [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/socket-reader.js:8,0]
+Side effects in initialization of unused variable fstream [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/socket-reader.js:9,0]
+Side effects in initialization of unused variable mkdir [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/socket-reader.js:11,0]
+Side effects in initialization of unused variable point [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/extended-header.js:52,0]
+Side effects in initialization of unused variable a [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/extended-header.js:53,0]
+Side effects in initialization of unused variable Z [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/extended-header.js:54,0]
+Side effects in initialization of unused variable a [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/extended-header.js:55,0]
+Side effects in initialization of unused variable z [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/tar/lib/extended-header.js:56,0]
+Side effects in initialization of unused variable path [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/uid-number/uid-number.js:10,0]
+Side effects in initialization of unused variable point [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/extended-header.js:52,0]
+Side effects in initialization of unused variable a [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/extended-header.js:53,0]
+Side effects in initialization of unused variable Z [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/extended-header.js:54,0]
+Side effects in initialization of unused variable a [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/extended-header.js:55,0]
+Side effects in initialization of unused variable z [(webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/lib/extended-header.js:56,0]
+Dropping side-effect-free statement [(webpack)/~/watchpack/~/chokidar/~/is-binary-path/~/binary-extensions/binary-extensions.json:1,0]
+Dropping unused function identity [(webpack)/~/watchpack/~/chokidar/~/readdirp/~/minimatch/~/brace-expansion/index.js:72,0]
+Side effects in initialization of unused variable SourceMapConsumer [(webpack)/~/webpack-core/lib/LineToLineMappedSource.js:6,0]
+Condition always false [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:82,0]
+Dropping unreachable code [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:82,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:84,0]
+Dropping unused variable Module [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:84,0]
+Dropping unused variable m [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:85,0]
+Condition always false [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:188,0]
+Dropping unreachable code [(webpack)/~/webpack-core/lib/NormalModuleMixin.js:189,0]
+Dropping unused function hasProperty [(webpack)/~/webpack-core/lib/OptionsDefaulter.js:29,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/base64.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/binary-search.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/binary-search.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/binary-search.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/binary-search.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/mapping-list.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/mapping-list.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/mapping-list.js:8,0]
+Dropping unused variable mapping [(webpack)/~/webpack-core/~/source-map/lib/source-map/mapping-list.js:57,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/mapping-list.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/quick-sort.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/quick-sort.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/quick-sort.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/quick-sort.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-consumer.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-map-consumer.js:8,0]
+Condition always false [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-node.js:7,0]
+Dropping unreachable code [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-node.js:8,0]
+Declarations in unreachable code! [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-node.js:8,0]
+Dropping unused variable define [(webpack)/~/webpack-core/~/source-map/lib/source-map/source-node.js:8,0]
+
+WARNING in common.js from UglifyJs
+Dropping unused variable internals [./~/react-router/~/qs/lib/utils.js:6,0]
+Condition always false [./~/alt/lib/index.js:113,0]
+Dropping unreachable code [./~/alt/lib/index.js:113,0]
+Condition always false [./~/alt/~/flux/lib/invariant.js:26,0]
+Dropping unreachable code [./~/alt/~/flux/lib/invariant.js:27,0]
+Dropping unused variable internals [./~/react-router/~/qs/lib/index.js:9,0]
+
+ERROR in ./~/html-webpack-plugin/index.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin
+ @ ./~/html-webpack-plugin/index.js 2:9-22
+
+ERROR in ./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ./htmlparser in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin/node_modules/html-minifier/dist
+ @ ./~/html-webpack-plugin/~/html-minifier/dist/htmlminifier.js 587:17-40
+
+ERROR in (webpack)/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "name": "webpack",
+|   "version": "1.12.2",
+|   "author": {
+ @ (webpack)/lib/Stats.js 139:16-42
+
+ERROR in ./~/html-webpack-plugin/~/html-minifier/~/uglify-js/tools/node.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin/node_modules/html-minifier/node_modules/uglify-js/tools
+ @ ./~/html-webpack-plugin/~/html-minifier/~/uglify-js/tools/node.js 2:9-22
+
+ERROR in (webpack)/lib/node/NodeMainTemplateAsync.runtime.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/lib/node
+ @ (webpack)/lib/node/NodeMainTemplateAsync.runtime.js 9:2-15 24:2-15
+
+ERROR in (webpack)/~/uglify-js/tools/node.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/uglify-js/tools
+ @ (webpack)/~/uglify-js/tools/node.js 2:9-22
+
+ERROR in (webpack)/lib/node/NodeOutputFileSystem.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/lib/node
+ @ (webpack)/lib/node/NodeOutputFileSystem.js 5:9-22
+
+ERROR in (webpack)/lib/node/OldNodeWatchFileSystem.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/lib/node
+ @ (webpack)/lib/node/OldNodeWatchFileSystem.js 5:9-22
+
+ERROR in ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/imports/inliner.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin/node_modules/html-minifier/node_modules/clean-css/lib/imports
+ @ ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/imports/inliner.js 1:9-22
+
+ERROR in ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/images/url-rebase.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin/node_modules/html-minifier/node_modules/clean-css/lib/images
+ @ ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/images/url-rebase.js 1:9-22
+
+ERROR in ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/selectors/source-map-stringifier.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin/node_modules/html-minifier/node_modules/clean-css/lib/selectors
+ @ ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/selectors/source-map-stringifier.js 2:9-22
+
+ERROR in ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/utils/input-source-map-tracker.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/html-webpack-plugin/node_modules/html-minifier/node_modules/clean-css/lib/utils
+ @ ./~/html-webpack-plugin/~/html-minifier/~/clean-css/lib/utils/input-source-map-tracker.js 3:9-22
+
+ERROR in (webpack)/~/mkdirp/index.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/mkdirp
+ @ (webpack)/~/mkdirp/index.js 2:9-22
+
+ERROR in (webpack)/~/enhanced-resolve/~/graceful-fs/graceful-fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/enhanced-resolve/node_modules/graceful-fs
+ @ (webpack)/~/enhanced-resolve/~/graceful-fs/graceful-fs.js 1:9-22
+
+ERROR in (webpack)/~/enhanced-resolve/~/graceful-fs/fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/enhanced-resolve/node_modules/graceful-fs
+ @ (webpack)/~/enhanced-resolve/~/graceful-fs/fs.js 3:9-22
+
+ERROR in (webpack)/~/node-libs-browser/~/constants-browserify/constants.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/node-libs-browser/node_modules/constants-browserify/constants.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "O_RDONLY": 0,
+|   "O_WRONLY": 1,
+|   "O_RDWR": 2,
+ @ (webpack)/~/enhanced-resolve/~/graceful-fs/polyfills.js 2:16-36
+
+ERROR in (webpack)/~/watchpack/~/chokidar/index.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar
+ @ (webpack)/~/watchpack/~/chokidar/index.js 3:9-22
+
+ERROR in (webpack)/~/watchpack/~/graceful-fs/graceful-fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/graceful-fs
+ @ (webpack)/~/watchpack/~/graceful-fs/graceful-fs.js 1:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/lib/nodefs-handler.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/lib
+ @ (webpack)/~/watchpack/~/chokidar/lib/nodefs-handler.js 3:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/lib/fsevents-handler.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/lib
+ @ (webpack)/~/watchpack/~/chokidar/lib/fsevents-handler.js 3:9-22
+
+ERROR in (webpack)/~/watchpack/~/graceful-fs/fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/graceful-fs
+ @ (webpack)/~/watchpack/~/graceful-fs/fs.js 3:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/fsevents.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/fsevents.js 14:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/node-pre-gyp.js
+Module not found: Error: Cannot resolve 'file' or 'directory' ../package in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/node-pre-gyp.js 60:16-37
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/clean.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/clean.js 7:9-22 9:13-26
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/info.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/info.js 7:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/install.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/install.js 7:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/package.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/package.js 7:9-22 11:12-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/pre-binding.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/pre-binding.js 4:17-30
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/publish.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/publish.js 7:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/reveal.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/reveal.js 7:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/testbinary.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/testbinary.js 7:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/testpackage.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/testpackage.js 7:9-22 13:11-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/unpublish.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/unpublish.js 7:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/info.js
+Module not found: Error: Cannot resolve module 'aws-sdk' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/info.js 14:14-32
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/publish.js
+Module not found: Error: Cannot resolve module 'aws-sdk' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/publish.js 17:14-32
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/unpublish.js
+Module not found: Error: Cannot resolve module 'aws-sdk' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/unpublish.js 15:14-32
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/testbinary.js
+Module not found: Error: Cannot resolve module 'child_process' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/testbinary.js 10:9-33
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js 5:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js
+Module not found: Error: Cannot resolve module 'child_process' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/compile.js 9:9-33
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/handle_gyp_opts.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/lib/util
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/lib/util/handle_gyp_opts.js 5:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/mkdirp/index.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/mkdirp
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/mkdirp/index.js 2:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/index.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/index.js 18:7-20
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/rimraf.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/rimraf
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/rimraf.js 6:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/test/function.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/test/function.js 9:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/test/function.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/test/function.js 11:11-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/test/fsevents.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/test/fsevents.js 9:11-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/rimraf/rimraf.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/rimraf
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/rimraf/rimraf.js 6:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/uid-number/uid-number.js
+Module not found: Error: Cannot resolve module 'child_process' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/uid-number
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/uid-number/uid-number.js 9:20-44
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/ignore.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/ignore.js 11:7-20
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/graceful-fs/graceful-fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/graceful-fs
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/graceful-fs/graceful-fs.js 5:17-30
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/glob.js 43:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/lib/har.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/lib/har.js 3:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/npmlog/~/gauge/~/has-unicode/index.js
+Module not found: Error: Cannot resolve module 'child_process' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/npmlog/node_modules/gauge/node_modules/has-unicode
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/npmlog/~/gauge/~/has-unicode/index.js 3:20-44
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/rimraf/node_modules/glob
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/rimraf/~/glob/sync.js 4:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/forever-agent/index.js
+Module not found: Error: Cannot resolve module 'net' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/forever-agent
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/forever-agent/index.js 6:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/forever-agent/index.js
+Module not found: Error: Cannot resolve module 'tls' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/forever-agent
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/forever-agent/index.js 7:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/proxy-writer.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/lib/proxy-writer.js 14:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tough-cookie/lib/cookie.js
+Module not found: Error: Cannot resolve module 'net' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/tough-cookie/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tough-cookie/lib/cookie.js 32:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tough-cookie/package.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/tough-cookie/package.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "author": {
+|     "name": "Jeremy Stashewsky",
+|     "email": "jstashewsky@salesforce.com"
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tough-cookie/lib/cookie.js 38:14-40
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/fstream/lib/proxy-writer.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar/node_modules/fstream/lib
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/fstream/lib/proxy-writer.js 14:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tunnel-agent/index.js
+Module not found: Error: Cannot resolve module 'net' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/tunnel-agent
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tunnel-agent/index.js 3:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tunnel-agent/index.js
+Module not found: Error: Cannot resolve module 'tls' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/tunnel-agent
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/tunnel-agent/index.js 4:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/basic.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/basic.js 6:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/brace-expand.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/brace-expand.js 1:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/caching.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/caching.js 2:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/defaults.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/defaults.js 6:10-24
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/extglob-ending-with-state-char.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream-ignore/~/minimatch/test/extglob-ending-with-state-char.js 1:11-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/mime-types/~/mime-db/db.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/mime-types/node_modules/mime-db/db.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "application/1d-interleaved-parityfec": {
+|     "source": "iana"
+|   },
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/mime-types/~/mime-db/index.js 11:17-37
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/fstream/~/graceful-fs/graceful-fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar/node_modules/fstream/node_modules/graceful-fs
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/fstream/~/graceful-fs/graceful-fs.js 1:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/fs.js
+Module not found: Error: a dependency to an entry point is not allowed
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/fs.js 5:10-27
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/cache.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/cache.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "properties": {
+|     "beforeRequest": {
+|       "$ref": "#cacheEntry"
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 4:9-32
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/cacheEntry.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/cacheEntry.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "oneOf": [{
+|     "type": "object",
+|     "optional": true,
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 5:14-42
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/content.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/content.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "size",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 6:11-36
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/creator.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/creator.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "name",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 8:11-36
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/cookie.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/cookie.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "name",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 7:10-34
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/entry.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/entry.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "optional": true,
+|   "required": [
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 9:9-32
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/har.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/har.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "log"
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 10:7-28
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/log.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/log.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "version",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 11:7-28
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/page.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/page.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "optional": true,
+|   "required": [
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 12:8-30
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/postData.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/postData.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "optional": true,
+|   "required": [
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 14:12-38
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/pageTimings.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/pageTimings.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "properties": {
+|     "onContentLoad": {
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 13:15-44
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/record.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/record.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "name",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 15:10-34
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/request.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/request.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "method",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 16:11-36
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/response.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/response.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "type": "object",
+|   "required": [
+|     "status",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 17:12-38
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/timings.json
+Module parse failed: /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/lib/schemas/timings.json Line 2: Unexpected token :
+You may need an appropriate loader to handle this file type.
+| {
+|   "required": [
+|     "send",
+|     "wait",
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/request/~/har-validator/lib/schemas/index.js 18:11-36
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/fstream/~/graceful-fs/fs.js
+Module not found: Error: Cannot resolve module 'fs' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar/node_modules/fstream/node_modules/graceful-fs
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar/~/fstream/~/graceful-fs/fs.js 3:9-22
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/max-open.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/max-open.js 1:11-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/open.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/open.js 1:11-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/readdir-sort.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/readdir-sort.js 1:11-25
+
+ERROR in (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/write-then-read.js
+Module not found: Error: Cannot resolve module 'tap' in /Users/ck/Documents/webpack-php-mock/example/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test
+ @ (webpack)/~/watchpack/~/chokidar/~/fsevents/~/node-pre-gyp/~/tar-pack/~/fstream/~/graceful-fs/test/write-then-read.js 4:11-25
