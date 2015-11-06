@@ -1,7 +1,8 @@
 var path = require('path');
+var mockroot = path.join(__dirname, 'mock');
 
 module.exports = {
-    root: path.join(__dirname, 'webroot'),
+    root: path.join(mockroot, 'webroot'),
     rewrite: {
         paths: [
             {
@@ -40,11 +41,13 @@ module.exports = {
     phpconnect: {
         host: 'localhost',
         port: 8000,
-        root: path.join(__dirname, 'php')
+        root: path.join(mockroot, 'php')
     },
     server: {
-        port: 3000,
-        jsons: path.join(__dirname, 'jsons')
+        port: 3000
+    },
+    jsons: {
+        path: path.join(mockroot, 'jsons')
     },
     deploy: {
         default: [

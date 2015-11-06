@@ -1,8 +1,8 @@
 {
   "name": "webpack-php-mock",
-  "version": "1.0.0alpha",
+  "version": "1.0.1alpha",
   "description": "A mock server for webpack supporting php",
-  "main": "index.js",
+  "main": "server/gulp.js",
   "directories": {
     "doc": "doc",
     "example": "example"
@@ -20,7 +20,9 @@
     "webpack",
     "php"
   ],
-  "author": "Chen Kang, Wang sike",
+  "author": {
+    "name": "Chen Kang, Wang sike"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chenckang/webpack-php-mock/issues"

@@ -52,7 +52,7 @@ module.exports = {
 
                 if ('local' === item.type) {
                     var resText = fs.readFileSync(
-                        path.join(config.server.jsons, item.to)
+                        path.join(config.jsons.path, item.to)
                     );
                     res.type(type);
                     res.send(resText);
@@ -63,9 +63,6 @@ module.exports = {
                     target: item.to
                 });
             });
-        });
-
-        proxy.on('proxyReq', function (proxyReq, req, res, options) {
         });
 
         proxy.on('error', function (e) {

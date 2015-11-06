@@ -1,8 +1,6 @@
 'use strict';
 
 // Need to use shell to do some simple deployment
-require('shelljs/global');
-var fs = require('fs');
 var gulp = require('gulp');
 require('shelljs/global');
 var path = require('path');
@@ -75,9 +73,11 @@ gulp.watch(resolveRoot.map(function (item, idx, arr) {
 }), ['compile', 'deploy']);
 
 // Compiling task
-gulp.task('default', ['clean', 'compile', 'deploy']);
+gulp.task('deploy',['clean', 'compile', 'deploy']);
 
 // Local mock server task
 gulp.task('server', ['proxy', 'phpconnect']);
+
+gulp.task('default', ['server', 'deploy']);
 
 module.exports = gulp;
