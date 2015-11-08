@@ -1,5 +1,10 @@
 # Webpack-php-mock
 
+[![npm version](https://badge.fury.io/js/webpack-php-mock.svg)](https://badge.fury.io/js/webpack-php-mock)
+
+
+## description
+
 This is the exprimental version, only contain some core code.
 That means to be continue;
 
@@ -11,10 +16,10 @@ The purpose of this project is:
 
 And so on.
 
-To be continue.
+## Usage
 
+To be continue
 
-
-# License
+## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
