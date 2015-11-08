@@ -1,7 +1,8 @@
 # Webpack-php-mock
 
 [![npm version](https://badge.fury.io/js/webpack-php-mock.svg)](https://badge.fury.io/js/webpack-php-mock)
-[![pull requests closed in](http://issuestats.com/github/chenckang/webpack-php-mock/badge/pr?style=flat-square)](http://issuestats.com/github//chenckang/webpack-php-mock)
+[![Issue Stats](http://issuestats.com/github/chenckang/webpack-php-mock/badge/pr)](http://issuestats.com/github/chenckang/webpack-php-mock)
+[![Issue Stats](http://issuestats.com/github/chenckang/webpack-php-mock/badge/issue)](http://issuestats.com/github/chenckang/webpack-php-mock)
 
 ## description
 
