@@ -1,6 +1,6 @@
 {
   "name": "webpack-php-mock",
-  "version": "1.0.3-alpha",
+  "version": "1.0.4-alpha",
   "description": "A mock server for webpack supporting php",
   "main": "server/gulp.js",
   "directories": {

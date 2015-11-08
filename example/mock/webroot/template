@@ -6,6 +6,6 @@
     <title>Smarty</title>
 </head>
 <body>
-    xxxxxx
+    This is the smarty demo. The HTML doc is based on the origin page from the the webpack's compiling.
 <script src="/app/common.js"></script><script src="/app/module.js"></script></body>
 </html>

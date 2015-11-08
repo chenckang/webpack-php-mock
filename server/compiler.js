@@ -1,4 +1,9 @@
 'use strict';
+/**
+ * @fileOverview Webpack compiler instance.
+ * @author chenckang@gmail.com, wangsike(kyhwsk@126.com)
+ */
+'use strict';
 
 var webpack = require('webpack');
 var path = require('path');

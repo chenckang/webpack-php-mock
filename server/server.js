@@ -1,3 +1,8 @@
+/**
+ * @fileOverview The proxy serve instance.
+ * @author chenckang@gmail.com
+ */
+
 'use strict';
 
 var express = require('express');

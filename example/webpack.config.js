@@ -5,8 +5,6 @@ var path = require('path');
 var appPath = path.join(__dirname, 'app');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-console.log(path.join(__dirname, 'page', 'index.html'));
-
 module.exports = {
     target: 'web',
     cache: true,

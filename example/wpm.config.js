@@ -36,6 +36,16 @@ module.exports = {
                 from: '/app2/*',
                 to: 'http://host.com/',
                 mime: 'application/json',
+            },
+            {
+                type: 'proxy',
+                from: '/cookie_request/*',
+                to: 'http://localhost:8000/cookie.php',
+                mime: 'application/json',
+                method: 'all',
+                cookie: {
+                    file: path.join(mockroot, 'cookie', 'fack.cookie')
+                }
             }
         ]
     },
