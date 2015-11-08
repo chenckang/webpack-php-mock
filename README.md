@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/webpack-php-mock.svg)](https://badge.fury.io/js/webpack-php-mock)
 
+[![pull requests closed in](http://issuestats.com/github//chenckang/webpack-php-mock)](http://issuestats.com/github/chenckang/webpack-php-mock/badge/pr?style=flat-square)
 
 ## description
 
