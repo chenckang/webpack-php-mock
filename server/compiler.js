@@ -33,4 +33,7 @@ module.exports = {
     handleWarnings: function (warnings) {
         console.log('warning:' + warnings);
     },
+    handleFatalError: function (err) {
+        console.error('Compiling failed', err);
+    }
 };

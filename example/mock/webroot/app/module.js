@@ -5,7 +5,7 @@ webpackJsonp([1],{
 
 	'use strict';
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	var _react = __webpack_require__(1);
 	
@@ -15,7 +15,7 @@ webpackJsonp([1],{
 	
 	var _reactRouter2 = _interopRequireDefault(_reactRouter);
 	
-	var _routes = __webpack_require__(209);
+	var _routes = __webpack_require__(212);
 	
 	var _routes2 = _interopRequireDefault(_routes);
 	
@@ -25,7 +25,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 208:
+/***/ 211:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -40,12 +40,12 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 209:
+/***/ 212:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	Object.defineProperty(exports, '__esModule', {
 	    value: true
@@ -57,11 +57,11 @@ webpackJsonp([1],{
 	
 	var _reactRouter = __webpack_require__(157);
 	
-	var _componentsMain = __webpack_require__(210);
+	var _componentsMain = __webpack_require__(213);
 	
 	var _componentsMain2 = _interopRequireDefault(_componentsMain);
 	
-	var _componentsExample = __webpack_require__(240);
+	var _componentsExample = __webpack_require__(243);
 	
 	var _componentsExample2 = _interopRequireDefault(_componentsExample);
 	
@@ -76,20 +76,20 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 210:
+/***/ 213:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _get = __webpack_require__(211)['default'];
+	var _get = __webpack_require__(214)['default'];
 	
-	var _inherits = __webpack_require__(225)['default'];
+	var _inherits = __webpack_require__(228)['default'];
 	
-	var _createClass = __webpack_require__(236)['default'];
+	var _createClass = __webpack_require__(239)['default'];
 	
-	var _classCallCheck = __webpack_require__(239)['default'];
+	var _classCallCheck = __webpack_require__(242)['default'];
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	Object.defineProperty(exports, '__esModule', {
 	    value: true
@@ -139,12 +139,12 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 211:
+/***/ 214:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _Object$getOwnPropertyDescriptor = __webpack_require__(212)["default"];
+	var _Object$getOwnPropertyDescriptor = __webpack_require__(215)["default"];
 	
 	exports["default"] = function get(_x, _x2, _x3) {
 	  var _again = true;
@@ -189,25 +189,25 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 212:
+/***/ 215:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(213), __esModule: true };
+	module.exports = { "default": __webpack_require__(216), __esModule: true };
 
 /***/ },
 
-/***/ 213:
+/***/ 216:
 /***/ function(module, exports, __webpack_require__) {
 
-	var $ = __webpack_require__(214);
-	__webpack_require__(215);
+	var $ = __webpack_require__(217);
+	__webpack_require__(218);
 	module.exports = function getOwnPropertyDescriptor(it, key){
 	  return $.getDesc(it, key);
 	};
 
 /***/ },
 
-/***/ 214:
+/***/ 217:
 /***/ function(module, exports) {
 
 	var $Object = Object;
@@ -226,13 +226,13 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 215:
+/***/ 218:
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
-	var toIObject = __webpack_require__(216);
+	var toIObject = __webpack_require__(219);
 	
-	__webpack_require__(220)('getOwnPropertyDescriptor', function($getOwnPropertyDescriptor){
+	__webpack_require__(223)('getOwnPropertyDescriptor', function($getOwnPropertyDescriptor){
 	  return function getOwnPropertyDescriptor(it, key){
 	    return $getOwnPropertyDescriptor(toIObject(it), key);
 	  };
@@ -240,30 +240,30 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 216:
+/***/ 219:
 /***/ function(module, exports, __webpack_require__) {
 
 	// to indexed object, toObject with fallback for non-array-like ES3 strings
-	var IObject = __webpack_require__(217)
-	  , defined = __webpack_require__(219);
+	var IObject = __webpack_require__(220)
+	  , defined = __webpack_require__(222);
 	module.exports = function(it){
 	  return IObject(defined(it));
 	};
 
 /***/ },
 
-/***/ 217:
+/***/ 220:
 /***/ function(module, exports, __webpack_require__) {
 
 	// fallback for non-array-like ES3 and non-enumerable old V8 strings
-	var cof = __webpack_require__(218);
+	var cof = __webpack_require__(221);
 	module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
 	  return cof(it) == 'String' ? it.split('') : Object(it);
 	};
 
 /***/ },
 
-/***/ 218:
+/***/ 221:
 /***/ function(module, exports) {
 
 	var toString = {}.toString;
@@ -274,7 +274,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 219:
+/***/ 222:
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -285,25 +285,28 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 220:
+/***/ 223:
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
+	var $def  = __webpack_require__(224)
+	  , core  = __webpack_require__(226)
+	  , fails = __webpack_require__(227);
 	module.exports = function(KEY, exec){
-	  var $def = __webpack_require__(221)
-	    , fn   = (__webpack_require__(223).Object || {})[KEY] || Object[KEY]
+	  var $def = __webpack_require__(224)
+	    , fn   = (core.Object || {})[KEY] || Object[KEY]
 	    , exp  = {};
 	  exp[KEY] = exec(fn);
-	  $def($def.S + $def.F * __webpack_require__(224)(function(){ fn(1); }), 'Object', exp);
+	  $def($def.S + $def.F * fails(function(){ fn(1); }), 'Object', exp);
 	};
 
 /***/ },
 
-/***/ 221:
+/***/ 224:
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(222)
-	  , core      = __webpack_require__(223)
+	var global    = __webpack_require__(225)
+	  , core      = __webpack_require__(226)
 	  , PROTOTYPE = 'prototype';
 	var ctx = function(fn, that){
 	  return function(){
@@ -352,7 +355,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 222:
+/***/ 225:
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -362,15 +365,15 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 223:
+/***/ 226:
 /***/ function(module, exports) {
 
-	var core = module.exports = {version: '1.2.3'};
+	var core = module.exports = {version: '1.2.5'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
 
-/***/ 224:
+/***/ 227:
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -383,14 +386,14 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 225:
+/***/ 228:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _Object$create = __webpack_require__(226)["default"];
+	var _Object$create = __webpack_require__(229)["default"];
 	
-	var _Object$setPrototypeOf = __webpack_require__(228)["default"];
+	var _Object$setPrototypeOf = __webpack_require__(231)["default"];
 	
 	exports["default"] = function (subClass, superClass) {
 	  if (typeof superClass !== "function" && superClass !== null) {
@@ -412,55 +415,55 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 226:
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(227), __esModule: true };
-
-/***/ },
-
-/***/ 227:
-/***/ function(module, exports, __webpack_require__) {
-
-	var $ = __webpack_require__(214);
-	module.exports = function create(P, D){
-	  return $.create(P, D);
-	};
-
-/***/ },
-
-/***/ 228:
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(229), __esModule: true };
-
-/***/ },
-
 /***/ 229:
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(230);
-	module.exports = __webpack_require__(223).Object.setPrototypeOf;
+	module.exports = { "default": __webpack_require__(230), __esModule: true };
 
 /***/ },
 
 /***/ 230:
 /***/ function(module, exports, __webpack_require__) {
 
-	// 19.1.3.19 Object.setPrototypeOf(O, proto)
-	var $def = __webpack_require__(221);
-	$def($def.S, 'Object', {setPrototypeOf: __webpack_require__(231).set});
+	var $ = __webpack_require__(217);
+	module.exports = function create(P, D){
+	  return $.create(P, D);
+	};
 
 /***/ },
 
 /***/ 231:
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = { "default": __webpack_require__(232), __esModule: true };
+
+/***/ },
+
+/***/ 232:
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(233);
+	module.exports = __webpack_require__(226).Object.setPrototypeOf;
+
+/***/ },
+
+/***/ 233:
+/***/ function(module, exports, __webpack_require__) {
+
+	// 19.1.3.19 Object.setPrototypeOf(O, proto)
+	var $def = __webpack_require__(224);
+	$def($def.S, 'Object', {setPrototypeOf: __webpack_require__(234).set});
+
+/***/ },
+
+/***/ 234:
+/***/ function(module, exports, __webpack_require__) {
+
 	// Works with __proto__ only. Old v8 can't work with null proto objects.
 	/* eslint-disable no-proto */
-	var getDesc  = __webpack_require__(214).getDesc
-	  , isObject = __webpack_require__(232)
-	  , anObject = __webpack_require__(233);
+	var getDesc  = __webpack_require__(217).getDesc
+	  , isObject = __webpack_require__(235)
+	  , anObject = __webpack_require__(236);
 	var check = function(O, proto){
 	  anObject(O);
 	  if(!isObject(proto) && proto !== null)throw TypeError(proto + ": can't set as prototype!");
@@ -469,7 +472,7 @@ webpackJsonp([1],{
 	  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
 	    function(test, buggy, set){
 	      try {
-	        set = __webpack_require__(234)(Function.call, getDesc(Object.prototype, '__proto__').set, 2);
+	        set = __webpack_require__(237)(Function.call, getDesc(Object.prototype, '__proto__').set, 2);
 	        set(test, []);
 	        buggy = !(test instanceof Array);
 	      } catch(e){ buggy = true; }
@@ -485,7 +488,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 232:
+/***/ 235:
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -494,10 +497,10 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 233:
+/***/ 236:
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(232);
+	var isObject = __webpack_require__(235);
 	module.exports = function(it){
 	  if(!isObject(it))throw TypeError(it + ' is not an object!');
 	  return it;
@@ -505,11 +508,11 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 234:
+/***/ 237:
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(235);
+	var aFunction = __webpack_require__(238);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -531,7 +534,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 235:
+/***/ 238:
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -541,12 +544,12 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 236:
+/***/ 239:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _Object$defineProperty = __webpack_require__(237)["default"];
+	var _Object$defineProperty = __webpack_require__(240)["default"];
 	
 	exports["default"] = (function () {
 	  function defineProperties(target, props) {
@@ -571,24 +574,24 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 237:
+/***/ 240:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(238), __esModule: true };
+	module.exports = { "default": __webpack_require__(241), __esModule: true };
 
 /***/ },
 
-/***/ 238:
+/***/ 241:
 /***/ function(module, exports, __webpack_require__) {
 
-	var $ = __webpack_require__(214);
+	var $ = __webpack_require__(217);
 	module.exports = function defineProperty(it, key, desc){
 	  return $.setDesc(it, key, desc);
 	};
 
 /***/ },
 
-/***/ 239:
+/***/ 242:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -603,20 +606,20 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 240:
+/***/ 243:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _get = __webpack_require__(211)['default'];
+	var _get = __webpack_require__(214)['default'];
 	
-	var _inherits = __webpack_require__(225)['default'];
+	var _inherits = __webpack_require__(228)['default'];
 	
-	var _createClass = __webpack_require__(236)['default'];
+	var _createClass = __webpack_require__(239)['default'];
 	
-	var _classCallCheck = __webpack_require__(239)['default'];
+	var _classCallCheck = __webpack_require__(242)['default'];
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	Object.defineProperty(exports, '__esModule', {
 	    value: true
@@ -626,15 +629,15 @@ webpackJsonp([1],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _altUtilsConnectToStores = __webpack_require__(241);
+	var _altUtilsConnectToStores = __webpack_require__(244);
 	
 	var _altUtilsConnectToStores2 = _interopRequireDefault(_altUtilsConnectToStores);
 	
-	var _storesDummyStore = __webpack_require__(242);
+	var _storesDummyStore = __webpack_require__(245);
 	
 	var _storesDummyStore2 = _interopRequireDefault(_storesDummyStore);
 	
-	var _actionsDummyActions = __webpack_require__(246);
+	var _actionsDummyActions = __webpack_require__(249);
 	
 	var _actionsDummyActions2 = _interopRequireDefault(_actionsDummyActions);
 	
@@ -695,7 +698,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 241:
+/***/ 244:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -755,7 +758,7 @@ webpackJsonp([1],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _functions = __webpack_require__(201);
+	var _functions = __webpack_require__(204);
 	
 	function connectToStores(Spec) {
 	  var Component = arguments.length <= 1 || arguments[1] === undefined ? Spec : arguments[1];
@@ -818,28 +821,28 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 242:
+/***/ 245:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _createDecoratedClass = __webpack_require__(243)['default'];
+	var _createDecoratedClass = __webpack_require__(246)['default'];
 	
-	var _classCallCheck = __webpack_require__(239)['default'];
+	var _classCallCheck = __webpack_require__(242)['default'];
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	Object.defineProperty(exports, '__esModule', {
 	    value: true
 	});
 	
-	var _dispatcherControl = __webpack_require__(244);
+	var _dispatcherControl = __webpack_require__(247);
 	
 	var _dispatcherControl2 = _interopRequireDefault(_dispatcherControl);
 	
-	var _altUtilsDecorators = __webpack_require__(245);
+	var _altUtilsDecorators = __webpack_require__(248);
 	
-	var _actionsDummyActions = __webpack_require__(246);
+	var _actionsDummyActions = __webpack_require__(249);
 	
 	var _actionsDummyActions2 = _interopRequireDefault(_actionsDummyActions);
 	
@@ -868,12 +871,12 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 243:
+/***/ 246:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _Object$defineProperty = __webpack_require__(237)["default"];
+	var _Object$defineProperty = __webpack_require__(240)["default"];
 	
 	exports["default"] = (function () {
 	  function defineProperties(target, descriptors, initializers) {
@@ -919,18 +922,18 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 244:
+/***/ 247:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
 	
-	var _alt = __webpack_require__(196);
+	var _alt = __webpack_require__(199);
 	
 	var _alt2 = _interopRequireDefault(_alt);
 	
@@ -941,7 +944,7 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 245:
+/***/ 248:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -957,7 +960,7 @@ webpackJsonp([1],{
 	exports.expose = expose;
 	exports.datasource = datasource;
 	
-	var _functions = __webpack_require__(201);
+	var _functions = __webpack_require__(204);
 	
 	/* istanbul ignore next */
 	function NoopClass() {}
@@ -1052,24 +1055,24 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 246:
+/***/ 249:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _classCallCheck = __webpack_require__(239)['default'];
+	var _classCallCheck = __webpack_require__(242)['default'];
 	
-	var _interopRequireDefault = __webpack_require__(208)['default'];
+	var _interopRequireDefault = __webpack_require__(211)['default'];
 	
 	Object.defineProperty(exports, '__esModule', {
 	    value: true
 	});
 	
-	var _dispatcherControl = __webpack_require__(244);
+	var _dispatcherControl = __webpack_require__(247);
 	
 	var _dispatcherControl2 = _interopRequireDefault(_dispatcherControl);
 	
-	var _altUtilsDecorators = __webpack_require__(245);
+	var _altUtilsDecorators = __webpack_require__(248);
 	
 	var DummyActions = (function () {
 	    function DummyActions(props) {

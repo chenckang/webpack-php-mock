@@ -13,7 +13,7 @@
     "babel-loader": "^5.3.2",
     "html-webpack-plugin": "^1.6.2",
     "webpack": "^1.12.2",
-    "webpack-php-mock": "^1.0.0"
+    "webpack-php-mock": "^1.0.2-alpha"
   },
   "dependencies": {
     "alt": "^0.17.6",

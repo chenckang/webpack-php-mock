@@ -3,6 +3,7 @@ var mockroot = path.join(__dirname, 'mock');
 
 module.exports = {
     root: path.join(mockroot, 'webroot'),
+    outputPath: path.join(mockroot, 'webroot', 'app'),
     rewrite: {
         paths: [
             {
@@ -52,12 +53,12 @@ module.exports = {
     deploy: {
         default: [
             {
-                from: path.join('app', 'index.html'),
-                to: '/'
+                from: path.join(mockroot, 'webroot', 'app', 'index.html'),
+                to: path.join(mockroot, 'webroot')
             },
             {
-                from: path.join('app', 'index.tpl'),
-                to: path.sep + 'templates' + path.sep
+                from: path.join(mockroot, 'webroot', 'app', 'index.tpl'),
+                to: path.join(mockroot, 'webroot', 'template')
             }
         ]
     }

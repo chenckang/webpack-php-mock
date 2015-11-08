@@ -15,6 +15,7 @@ var server = require('./server');
 var connect = require('gulp-connect-php');
 
 var resolveRoot = webpackConfig.resolve.root;
+webpackConfig.output.path = config.outputPath;
 
 // Initialize compiler instances
 var compiler = require('./compiler');
@@ -31,10 +32,12 @@ gulp.task('deploy', ['compile'], function () {
     var defaultDeploy = config.deploy.default;
 
     defaultDeploy.forEach(function (item, i, arr) {
-        var fm = path.join(config.root, item.from);
-        var to = path.join(config.root, item.to);
+        var fm = item.from;
+        var to = item.to;
 
-        console.log('Deploying ' + fm + ' to ' + to);
+        console.log(fm);
+
+        console.log('Coping ' + fm + ' to ' + to);
 
         mv('-f', fm, to);
     });
@@ -73,11 +76,11 @@ gulp.watch(resolveRoot.map(function (item, idx, arr) {
 }), ['compile', 'deploy']);
 
 // Compiling task
-gulp.task('deploy',['clean', 'compile', 'deploy']);
+gulp.task('build',['clean', 'compile', 'deploy']);
 
 // Local mock server task
 gulp.task('server', ['proxy', 'phpconnect']);
 
-gulp.task('default', ['server', 'deploy']);
+gulp.task('default', ['server', 'build']);
 
 module.exports = gulp;
