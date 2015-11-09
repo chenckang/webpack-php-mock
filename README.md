@@ -34,7 +34,7 @@ Switch to you project root directory which should have a ***package.json*** file
 
     npm install webpack-php-mock --save-dev
 
-Now you get **webpack-php-mock **installed on you project, declaring it as one of the "devDependencies".
+Now you get **webpack-php-mock** installed on you project, declaring it as one of the "devDependencies".
 
 The next import thing is to add a config file to the root of the project naming ***wpm.config.js***, which records key information to help to mock everything.
 
@@ -81,18 +81,6 @@ This is used to mock the interface, you can spcify a local json file in "to", an
 
 This is used for proxy, redirect you "from" request to "to". It can used to pull data from a real server. Also if you specify the cookie, the proxy will have the authorization info to request to "to".
 
-#### PHP Connect
-
-Configuration Name: phpconnect
-
-This is a configuration for the plugin ***gulp-connect-php***, [click to chech the detail](https://github.com/micahblu/gulp-connect-php.git)
-
-#### Server
-
-Configuration Name: server.port
-
-Just specify the port that the mock server will use.
-
 ##### Type: php
 
 This is used for php interpretation. Request based on php will use this type.
@@ -128,6 +116,20 @@ Here is an example:
             }
         ]
     }
+
+
+
+#### PHP Connect
+
+Configuration Name: phpconnect
+
+This is a configuration for the plugin ***gulp-connect-php***, [click to chech the detail](https://github.com/micahblu/gulp-connect-php.git)
+
+#### Server
+
+Configuration Name: server.port
+
+Just specify the port that the mock server will use.
 
 #### Deploy to Reconstruct
 
