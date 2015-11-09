@@ -25,7 +25,7 @@ Switch to the root of the example demo. And run the command ***npm install*** an
 
 The configuration descriptions are blow.
 
-===
+***
 
 ## Configuration
 
@@ -144,7 +144,7 @@ Below is what it look like:
 
 You can find more details in ***wpm.config.js*** of the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demonstration.
 
-===
+***
 
 ### Gulp and Run
 
