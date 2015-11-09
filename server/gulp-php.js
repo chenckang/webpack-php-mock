@@ -4,6 +4,7 @@
  */
 
 'use strict';
+require('shelljs/global');
 
 var cwdSpace = process.cwd();
 var path = require('path');
@@ -14,6 +15,11 @@ module.exports = function (gulp) {
     // Run gulp php connect plugin
     gulp.task('phpconnect', function () {
         var phpconnect = wpmConfig.phpconnect;
+
+        if (!test('-d', phpconnect.root)) {
+            console.warn('Creating php root directory: ' + phpconnect.root);
+            mkdir('-p', phpconnect.root);
+        }
 
         // Launch server for php-cgi
         connect.server({
