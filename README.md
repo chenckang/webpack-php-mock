@@ -5,28 +5,7 @@
 [![Issue Stats](http://issuestats.com/github/chenckang/webpack-php-mock/badge/issue)](http://issuestats.com/github/chenckang/webpack-php-mock)
 [![Build Status](https://travis-ci.org/chenckang/webpack-php-mock.svg)](https://travis-ci.org/chenckang/webpack-php-mock)
 
-## Why webpack-php-mock
-
-Recently out team launched a new project based on webpack, react and so on. As we continued to proceed our jobs, some problems came out:
-
-* Our backend project are based on PHP, and the frontend's partial template is just smarty which is a fast meanwhile popular template engine.
-* When had compiled the react files, the output of the compiling is just not satisfied the structure of the backend project.
-* We also need mock the interface before it's existance using the static files with the format of json and so on.
-
-And there are many many reasons, I will not list them all here. So what webpack-php-mock will do: 
-
-* Mock The interface with fake data.
-* Support the php interpretation.
-* Support template engine based on php.
-* Deploy you project as the are online structured.
-* Can Used as a proxy server for redirecting requests to the really server. That is an enhancement of the ***interface mocking***.
-* And so on.
-
-Additionally webpack-dev-server are also an another fantastic tool to do proxy things, but without PHP interpretation, reconstruct the project and so on.
-
-## Usage
-
-### Installation
+## Installation
 
 **Webpack-php-mock** is published as a npm module, so that one can easily install it using the ***npm install*** or ***npm i*** command. 
 
@@ -38,12 +17,19 @@ Now you get **webpack-php-mock** installed on you project, declaring it as one o
 
 The next import thing is to add a config file to the root of the project naming ***wpm.config.js***, which records key information to help to mock everything.
 
-You can quickly run you first mock stuff with the demo [example](https://github.com/chenckang/webpack-php-mock/tree/master/example). 
-Run the command ***npm install*** and ***gulp*** and just visit [http://localhost:3000/](http://localhost:3000/)
+## Usage
 
-### Configuration
+You can quickly run you the mock stuff within the demo [example](https://github.com/chenckang/webpack-php-mock/tree/master/example). 
 
-The first thing to be anounced is that there should be a ***webpack.config.js*** file or the similiar to support the compiling of the project. This is because **webpack-php-mock** is just based on **webpack** and provide no additional compiling stuff.
+Switch to the root of the example demo. And run the command ***npm install*** and ***gulp*** in it. After that just visit [http://localhost:3000/](http://localhost:3000/) to check it out.
+
+The configuration descriptions are blow.
+
+===
+
+## Configuration
+
+The first thing to be anounced is that there should be a ***webpack.config.js*** file or the similiar to support the compiling of the project using webpack. This is because **webpack-php-mock** is just based on **webpack** and provide no additional compiling stuff.
 
 All the configuration usage could be find in the ***example*** demo.
 
@@ -117,13 +103,11 @@ Here is an example:
         ]
     }
 
-
-
 #### PHP Connect
 
 Configuration Name: phpconnect
 
-This is a configuration for the plugin ***gulp-connect-php***, [click to chech the detail](https://github.com/micahblu/gulp-connect-php.git)
+This is a configuration for the plugin ***gulp-connect-php***, [click to check the detail](https://github.com/micahblu/gulp-connect-php.git)
 
 #### Server
 
@@ -160,6 +144,8 @@ Below is what it look like:
 
 You can find more details in ***wpm.config.js*** of the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demonstration.
 
+===
+
 ### Gulp and Run
 
 Once you have you ***wpm.config.js*** file, and you also have a project based on webpack, then all you need to do is just include the tasks provided into you ***gulpfile.js*** and the run it.
@@ -187,6 +173,27 @@ For you convenience, just run
 
 Then every thing will be done.
 
+===
+
+## Why webpack-php-mock
+
+Recently out team launched a new project based on webpack, react and so on. As we continued to proceed our jobs, some problems came out:
+
+* Our backend project are based on PHP, and the frontend's partial template is just smarty which is a fast meanwhile popular template engine.
+* When had compiled the react files, the output of the compiling is just not satisfied the structure of the backend project.
+* We also need mock the interface before it's existance using the static files with the format of json and so on.
+
+And there are many many reasons, I will not list them all here. So what webpack-php-mock will do: 
+
+* Mock The interface with fake data.
+* Support the php interpretation.
+* Support template engine based on php.
+* Deploy you project as the are online structured.
+* Can Used as a proxy server for redirecting requests to the really server. That is an enhancement of the ***interface mocking***.
+* And so on.
+
+Additionally webpack-dev-server are also an another fantastic tool to do proxy things, but without PHP interpretation, reconstruct the project and so on.
+
 ## Dependencies
 
 ### Gulp
@@ -200,6 +207,7 @@ To interpret php files with webpack-php-mock, you should have PHP installed in y
 ### Other
 
 All the dependencies are list in the ***package.json*** file. Just check it out.
+
 
 ## License
 
