@@ -200,7 +200,7 @@ Recently our team launched a new project based on webpack, react and so on. As w
 
 * Our backend project are based on PHP, and the frontend's partial template is just smarty which is a fast meanwhile popular template engine.
 * When had compiled the react files, the output of the compiling is just not satisfied the structure of the backend project.
-* We also need mock the interface before it's existance using the static files with the format of json and so on.
+* We also need mock the interface before its existance using the static files with the format of json and so on.
 
 And there are many many reasons, I will not list them all here. So what webpack-php-mock will do: 
 
