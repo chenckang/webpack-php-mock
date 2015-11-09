@@ -29,9 +29,9 @@ The configuration descriptions are blow.
 
 ## Configuration
 
-The first thing to be anounced is that there should be a ***webpack.config.js*** file or the similiar to support the compiling of the project using webpack. This is because **webpack-php-mock** is just based on **webpack** and provide no additional compiling stuff.
+The first thing to be anounced is that there should be a ***webpack.config.js*** file or the similiar to support the compiling of the project using webpack. This is because **webpack-php-mock** is just based on **webpack** and provides no additional compiling stuff.
 
-All the configuration usage could be find in the ***example*** demo.
+All the configuration usage could be find in the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demo.
 
 #### The Root Directory
 
