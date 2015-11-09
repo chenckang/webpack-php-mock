@@ -39,11 +39,15 @@ Configuration Name: root
 
 To help to locate all the static file, you should explicitly give the web root directory, like nginx do. The root directory only contains static files such as JavaScript files, image files, font files and so on. The root directory will be cleaned every once you run ***gulp*** or ***gulp clean***.
 
+    root: path.join(mockroot, 'webroot')
+
 #### Webpack Output Path
 
 Configuration Name: outputPath
 
 This will override the the ***output.path*** configuration of the ***webpack.config.js***. The purpose is compiled output to a specific place avoiding files pollution of the project.
+
+    outputPath: path.join(mockroot, 'webroot', 'app')
 
 #### Jsons
 
@@ -51,6 +55,31 @@ Configuration Name: jsons.path
 
 Specify the local path where all the json datas locate. This mainly for the rewrite of the type ***local***.
 
+    jsons: {
+        path: path.join(mockroot, 'jsons')
+    }
+
+#### PHP Connect
+
+Configuration Name: phpconnect
+
+This is a configuration for the plugin ***gulp-connect-php***, [click to check the detail](https://github.com/micahblu/gulp-connect-php.git)
+
+    phpconnect: {
+        host: 'localhost',
+        port: 8000,
+        root: path.join(mockroot, 'php')
+    }
+
+#### Server
+
+Configuration Name: server.port
+
+Just specify the port that the mock server will use.
+
+    server: {
+        port: 3000
+    }
 
 #### Rewrite Path
 
@@ -59,17 +88,6 @@ Configuration Name: rewrite.paths
 This is the main part of the configuration, which can archieve proxy, interface mock, php request redirect.
 
 The paths is an array which contain each individual rewrite rule. Each rule is one of the type: **local**, **proxy**, **php**. And cookie can also be injected into each rule to help the authorization.
-
-##### Type: local
-This is used to mock the interface, you can spcify a local json file in "to", and when you request "from", the content of the "to" will be returned. If the mime is "application/json" it will act like a really interface. The path value of the "to" is relative to the ***jsons.path*** configuration.
-
-##### Type: proxy
-
-This is used for proxy, redirect you "from" request to "to". It can used to pull data from a real server. Also if you specify the cookie, the proxy will have the authorization info to request to "to".
-
-##### Type: php
-
-This is used for php interpretation. Request based on php will use this type.
 
 Here is an example:
     
@@ -103,17 +121,18 @@ Here is an example:
         ]
     }
 
-#### PHP Connect
+Below is the description of the type value:
 
-Configuration Name: phpconnect
+##### Type: local
+This is used to mock the interface, you can spcify a local json file in "to", and when you request "from", the content of the "to" will be returned. If the mime is "application/json" it will act like a really interface. The path value of the "to" is relative to the ***jsons.path*** configuration.
 
-This is a configuration for the plugin ***gulp-connect-php***, [click to check the detail](https://github.com/micahblu/gulp-connect-php.git)
+##### Type: proxy
 
-#### Server
+This is used for proxy, redirect you "from" request to "to". It can used to pull data from a real server. Also if you specify the cookie, the proxy will have the authorization info to request to "to".
 
-Configuration Name: server.port
+##### Type: php
 
-Just specify the port that the mock server will use.
+This is used for php interpretation. Request based on php will use this type.
 
 #### Deploy to Reconstruct
 
