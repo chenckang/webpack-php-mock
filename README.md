@@ -196,7 +196,7 @@ Then every thing will be done.
 
 ## Why webpack-php-mock
 
-Recently out team launched a new project based on webpack, react and so on. As we continued to proceed our jobs, some problems came out:
+Recently our team launched a new project based on webpack, react and so on. As we continued to proceed our jobs, some problems came out:
 
 * Our backend project are based on PHP, and the frontend's partial template is just smarty which is a fast meanwhile popular template engine.
 * When had compiled the react files, the output of the compiling is just not satisfied the structure of the backend project.
