@@ -68,7 +68,7 @@ module.exports = {
             },
             {
                 from: path.join(mockroot, 'webroot', 'app', 'index.tpl'),
-                to: path.join(mockroot, 'webroot', 'template')
+                to: path.join(mockroot, 'webroot', 'templates')
             }
         ]
     }

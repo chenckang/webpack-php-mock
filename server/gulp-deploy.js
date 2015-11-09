@@ -19,10 +19,17 @@ module.exports = function (gulp) {
         defaultDeploy.forEach(function (item, i, arr) {
             var fm = item.from;
             var to = item.to;
+            var toDir = test('-d', to) ? to : path.dirname(to);
 
-            console.log('Coping ' + fm + ' to ' + to);
+            if (!test('-d', toDir)) {
+                rm('-rf', toDir);
+                mkdir('-p', toDir);
+            }
 
-            mv('-f', fm, to);
+            console.warn('Coping ' + fm + ' to ' + to);
+
+            cp('-r', fm, to);
+            rm('-rf', fm);
         });
     });
 

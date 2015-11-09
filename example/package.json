@@ -14,7 +14,7 @@
     "gulp": "^3.9.0",
     "html-webpack-plugin": "^1.6.2",
     "webpack": "^1.12.2",
-    "webpack-php-mock": "^1.0.4-alpha"
+    "webpack-php-mock": "^1.0.5-alpha"
   },
   "dependencies": {
     "alt": "^0.17.6",

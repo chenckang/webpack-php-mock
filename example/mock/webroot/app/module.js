@@ -19,7 +19,7 @@ webpackJsonp([1],{
 	
 	var _routes2 = _interopRequireDefault(_routes);
 	
-	_reactRouter2['default'].run(_routes2['default'], _reactRouter2['default'].HistoryLocation, function (Root, state) {
+	_reactRouter2['default'].run(_routes2['default'], _reactRouter2['default'].HashLocation, function (Root, state) {
 	    _react2['default'].render(_react2['default'].createElement(Root, state), document.getElementById('content'));
 	});
 
@@ -83,7 +83,7 @@ webpackJsonp([1],{
 	
 	var _get = __webpack_require__(214)['default'];
 	
-	var _inherits = __webpack_require__(228)['default'];
+	var _inherits = __webpack_require__(230)['default'];
 	
 	var _createClass = __webpack_require__(239)['default'];
 	
@@ -289,15 +289,14 @@ webpackJsonp([1],{
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $def  = __webpack_require__(224)
-	  , core  = __webpack_require__(226)
-	  , fails = __webpack_require__(227);
+	var $export = __webpack_require__(224)
+	  , core    = __webpack_require__(226)
+	  , fails   = __webpack_require__(229);
 	module.exports = function(KEY, exec){
-	  var $def = __webpack_require__(224)
-	    , fn   = (core.Object || {})[KEY] || Object[KEY]
-	    , exp  = {};
+	  var fn  = (core.Object || {})[KEY] || Object[KEY]
+	    , exp = {};
 	  exp[KEY] = exec(fn);
-	  $def($def.S + $def.F * fails(function(){ fn(1); }), 'Object', exp);
+	  $export($export.S + $export.F * fails(function(){ fn(1); }), 'Object', exp);
 	};
 
 /***/ },
@@ -307,51 +306,50 @@ webpackJsonp([1],{
 
 	var global    = __webpack_require__(225)
 	  , core      = __webpack_require__(226)
+	  , ctx       = __webpack_require__(227)
 	  , PROTOTYPE = 'prototype';
-	var ctx = function(fn, that){
-	  return function(){
-	    return fn.apply(that, arguments);
-	  };
-	};
-	var $def = function(type, name, source){
-	  var key, own, out, exp
-	    , isGlobal = type & $def.G
-	    , isProto  = type & $def.P
-	    , target   = isGlobal ? global : type & $def.S
-	        ? global[name] : (global[name] || {})[PROTOTYPE]
-	    , exports  = isGlobal ? core : core[name] || (core[name] = {});
-	  if(isGlobal)source = name;
+	
+	var $export = function(type, name, source){
+	  var IS_FORCED = type & $export.F
+	    , IS_GLOBAL = type & $export.G
+	    , IS_STATIC = type & $export.S
+	    , IS_PROTO  = type & $export.P
+	    , IS_BIND   = type & $export.B
+	    , IS_WRAP   = type & $export.W
+	    , exports   = IS_GLOBAL ? core : core[name] || (core[name] = {})
+	    , target    = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE]
+	    , key, own, out;
+	  if(IS_GLOBAL)source = name;
 	  for(key in source){
 	    // contains in native
-	    own = !(type & $def.F) && target && key in target;
+	    own = !IS_FORCED && target && key in target;
 	    if(own && key in exports)continue;
 	    // export native or passed
 	    out = own ? target[key] : source[key];
 	    // prevent global pollution for namespaces
-	    if(isGlobal && typeof target[key] != 'function')exp = source[key];
+	    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
 	    // bind timers to global for call from export context
-	    else if(type & $def.B && own)exp = ctx(out, global);
+	    : IS_BIND && own ? ctx(out, global)
 	    // wrap global constructors for prevent change them in library
-	    else if(type & $def.W && target[key] == out)!function(C){
-	      exp = function(param){
+	    : IS_WRAP && target[key] == out ? (function(C){
+	      var F = function(param){
 	        return this instanceof C ? new C(param) : C(param);
 	      };
-	      exp[PROTOTYPE] = C[PROTOTYPE];
-	    }(out);
-	    else exp = isProto && typeof out == 'function' ? ctx(Function.call, out) : out;
-	    // export
-	    exports[key] = exp;
-	    if(isProto)(exports[PROTOTYPE] || (exports[PROTOTYPE] = {}))[key] = out;
+	      F[PROTOTYPE] = C[PROTOTYPE];
+	      return F;
+	    // make static versions for prototype methods
+	    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
+	    if(IS_PROTO)(exports[PROTOTYPE] || (exports[PROTOTYPE] = {}))[key] = out;
 	  }
 	};
 	// type bitmap
-	$def.F = 1;  // forced
-	$def.G = 2;  // global
-	$def.S = 4;  // static
-	$def.P = 8;  // proto
-	$def.B = 16; // bind
-	$def.W = 32; // wrap
-	module.exports = $def;
+	$export.F = 1;  // forced
+	$export.G = 2;  // global
+	$export.S = 4;  // static
+	$export.P = 8;  // proto
+	$export.B = 16; // bind
+	$export.W = 32; // wrap
+	module.exports = $export;
 
 /***/ },
 
@@ -368,151 +366,16 @@ webpackJsonp([1],{
 /***/ 226:
 /***/ function(module, exports) {
 
-	var core = module.exports = {version: '1.2.5'};
+	var core = module.exports = {version: '1.2.6'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
 
 /***/ 227:
-/***/ function(module, exports) {
-
-	module.exports = function(exec){
-	  try {
-	    return !!exec();
-	  } catch(e){
-	    return true;
-	  }
-	};
-
-/***/ },
-
-/***/ 228:
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	var _Object$create = __webpack_require__(229)["default"];
-	
-	var _Object$setPrototypeOf = __webpack_require__(231)["default"];
-	
-	exports["default"] = function (subClass, superClass) {
-	  if (typeof superClass !== "function" && superClass !== null) {
-	    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
-	  }
-	
-	  subClass.prototype = _Object$create(superClass && superClass.prototype, {
-	    constructor: {
-	      value: subClass,
-	      enumerable: false,
-	      writable: true,
-	      configurable: true
-	    }
-	  });
-	  if (superClass) _Object$setPrototypeOf ? _Object$setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-	};
-	
-	exports.__esModule = true;
-
-/***/ },
-
-/***/ 229:
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(230), __esModule: true };
-
-/***/ },
-
-/***/ 230:
-/***/ function(module, exports, __webpack_require__) {
-
-	var $ = __webpack_require__(217);
-	module.exports = function create(P, D){
-	  return $.create(P, D);
-	};
-
-/***/ },
-
-/***/ 231:
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(232), __esModule: true };
-
-/***/ },
-
-/***/ 232:
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(233);
-	module.exports = __webpack_require__(226).Object.setPrototypeOf;
-
-/***/ },
-
-/***/ 233:
-/***/ function(module, exports, __webpack_require__) {
-
-	// 19.1.3.19 Object.setPrototypeOf(O, proto)
-	var $def = __webpack_require__(224);
-	$def($def.S, 'Object', {setPrototypeOf: __webpack_require__(234).set});
-
-/***/ },
-
-/***/ 234:
-/***/ function(module, exports, __webpack_require__) {
-
-	// Works with __proto__ only. Old v8 can't work with null proto objects.
-	/* eslint-disable no-proto */
-	var getDesc  = __webpack_require__(217).getDesc
-	  , isObject = __webpack_require__(235)
-	  , anObject = __webpack_require__(236);
-	var check = function(O, proto){
-	  anObject(O);
-	  if(!isObject(proto) && proto !== null)throw TypeError(proto + ": can't set as prototype!");
-	};
-	module.exports = {
-	  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
-	    function(test, buggy, set){
-	      try {
-	        set = __webpack_require__(237)(Function.call, getDesc(Object.prototype, '__proto__').set, 2);
-	        set(test, []);
-	        buggy = !(test instanceof Array);
-	      } catch(e){ buggy = true; }
-	      return function setPrototypeOf(O, proto){
-	        check(O, proto);
-	        if(buggy)O.__proto__ = proto;
-	        else set(O, proto);
-	        return O;
-	      };
-	    }({}, false) : undefined),
-	  check: check
-	};
-
-/***/ },
-
-/***/ 235:
-/***/ function(module, exports) {
-
-	module.exports = function(it){
-	  return typeof it === 'object' ? it !== null : typeof it === 'function';
-	};
-
-/***/ },
-
-/***/ 236:
-/***/ function(module, exports, __webpack_require__) {
-
-	var isObject = __webpack_require__(235);
-	module.exports = function(it){
-	  if(!isObject(it))throw TypeError(it + ' is not an object!');
-	  return it;
-	};
-
-/***/ },
-
-/***/ 237:
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(238);
+	var aFunction = __webpack_require__(228);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -534,11 +397,146 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 238:
+/***/ 228:
 /***/ function(module, exports) {
 
 	module.exports = function(it){
 	  if(typeof it != 'function')throw TypeError(it + ' is not a function!');
+	  return it;
+	};
+
+/***/ },
+
+/***/ 229:
+/***/ function(module, exports) {
+
+	module.exports = function(exec){
+	  try {
+	    return !!exec();
+	  } catch(e){
+	    return true;
+	  }
+	};
+
+/***/ },
+
+/***/ 230:
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _Object$create = __webpack_require__(231)["default"];
+	
+	var _Object$setPrototypeOf = __webpack_require__(233)["default"];
+	
+	exports["default"] = function (subClass, superClass) {
+	  if (typeof superClass !== "function" && superClass !== null) {
+	    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+	  }
+	
+	  subClass.prototype = _Object$create(superClass && superClass.prototype, {
+	    constructor: {
+	      value: subClass,
+	      enumerable: false,
+	      writable: true,
+	      configurable: true
+	    }
+	  });
+	  if (superClass) _Object$setPrototypeOf ? _Object$setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+	};
+	
+	exports.__esModule = true;
+
+/***/ },
+
+/***/ 231:
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = { "default": __webpack_require__(232), __esModule: true };
+
+/***/ },
+
+/***/ 232:
+/***/ function(module, exports, __webpack_require__) {
+
+	var $ = __webpack_require__(217);
+	module.exports = function create(P, D){
+	  return $.create(P, D);
+	};
+
+/***/ },
+
+/***/ 233:
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = { "default": __webpack_require__(234), __esModule: true };
+
+/***/ },
+
+/***/ 234:
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(235);
+	module.exports = __webpack_require__(226).Object.setPrototypeOf;
+
+/***/ },
+
+/***/ 235:
+/***/ function(module, exports, __webpack_require__) {
+
+	// 19.1.3.19 Object.setPrototypeOf(O, proto)
+	var $export = __webpack_require__(224);
+	$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(236).set});
+
+/***/ },
+
+/***/ 236:
+/***/ function(module, exports, __webpack_require__) {
+
+	// Works with __proto__ only. Old v8 can't work with null proto objects.
+	/* eslint-disable no-proto */
+	var getDesc  = __webpack_require__(217).getDesc
+	  , isObject = __webpack_require__(237)
+	  , anObject = __webpack_require__(238);
+	var check = function(O, proto){
+	  anObject(O);
+	  if(!isObject(proto) && proto !== null)throw TypeError(proto + ": can't set as prototype!");
+	};
+	module.exports = {
+	  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
+	    function(test, buggy, set){
+	      try {
+	        set = __webpack_require__(227)(Function.call, getDesc(Object.prototype, '__proto__').set, 2);
+	        set(test, []);
+	        buggy = !(test instanceof Array);
+	      } catch(e){ buggy = true; }
+	      return function setPrototypeOf(O, proto){
+	        check(O, proto);
+	        if(buggy)O.__proto__ = proto;
+	        else set(O, proto);
+	        return O;
+	      };
+	    }({}, false) : undefined),
+	  check: check
+	};
+
+/***/ },
+
+/***/ 237:
+/***/ function(module, exports) {
+
+	module.exports = function(it){
+	  return typeof it === 'object' ? it !== null : typeof it === 'function';
+	};
+
+/***/ },
+
+/***/ 238:
+/***/ function(module, exports, __webpack_require__) {
+
+	var isObject = __webpack_require__(237);
+	module.exports = function(it){
+	  if(!isObject(it))throw TypeError(it + ' is not an object!');
 	  return it;
 	};
 
@@ -613,7 +611,7 @@ webpackJsonp([1],{
 	
 	var _get = __webpack_require__(214)['default'];
 	
-	var _inherits = __webpack_require__(228)['default'];
+	var _inherits = __webpack_require__(230)['default'];
 	
 	var _createClass = __webpack_require__(239)['default'];
 	
