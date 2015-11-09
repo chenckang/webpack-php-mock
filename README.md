@@ -182,9 +182,9 @@ Here is all the gulp tasks provided:
 * compile: which compile the project into root directory
 * phpconnect: which start the ***gulp-connect-php***
 * proxy: which start the entry server
-* build: which do the ***clean***, ***compile*** and ***deploy*** in sequence
-* server: which do the ***proxy***, ***phpconnect*** in sequence
-* default: which do the ***server***, ***build*** in sequence
+* build: which run the ***clean***, ***compile*** and ***deploy*** in sequence
+* server: which run the ***proxy***, ***phpconnect*** in sequence
+* default: which run the ***server***, ***build*** in sequence
 
 For you convenience, just run
 
