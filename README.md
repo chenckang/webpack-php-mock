@@ -5,15 +5,15 @@
 
 ## Installation
 
-***Webpack-php-mock*** has been published as a npm module, so that one can easily install it using the **npm install** command. 
+**Webpack-php-mock** has been published as a npm module, so that one can easily install it using the **npm install** command. 
 
-Switch to you project root directory which should already have a **package.json** file in it, and run command as the following:
+Switch to you project root directory which should already have a ***package.json*** file in it, and run command as the following:
 
     npm install webpack-php-mock --save-dev
 
-Now you get ***webpack-php-mock*** installed on your project, declaring it as one of the "devDependencies".
+Now you get **webpack-php-mock** installed on your project, declaring it as one of the "devDependencies".
 
-The next important thing is to add a configuration file to the root of the project named **wpm.config.js**, where one can add custom settings.
+The next important thing is to add a configuration file to the root of the project named ***wpm.config.js***, where one can add custom settings.
 
 ## Usage
 
