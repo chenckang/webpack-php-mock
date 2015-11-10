@@ -2,8 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/webpack-php-mock.svg)](https://badge.fury.io/js/webpack-php-mock)
 [![Issue Stats](http://issuestats.com/github/chenckang/webpack-php-mock/badge/pr)](http://issuestats.com/github/chenckang/webpack-php-mock)
-[![Issue Stats](http://issuestats.com/github/chenckang/webpack-php-mock/badge/issue)](http://issuestats.com/github/chenckang/webpack-php-mock)
-[![Build Status](https://travis-ci.org/chenckang/webpack-php-mock.svg)](https://travis-ci.org/chenckang/webpack-php-mock)
 
 ## Installation
 
