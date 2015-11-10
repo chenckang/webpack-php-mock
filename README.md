@@ -234,7 +234,7 @@ To interpret PHP files with ***webpack-php-mock***, you should have PHP installe
 
 ### Other
 
-All the dependencies are list in the ***package.json*** file. Just check them out if you are interested.
+All the dependencies are list in the **package.json** file. Just check them out if you are interested.
 
 ## License
 
