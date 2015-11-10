@@ -5,15 +5,15 @@
 
 ## Installation
 
-**Webpack-php-mock** has been published as a npm module, so that one can easily install it using the ***npm install*** command. 
+***Webpack-php-mock*** has been published as a npm module, so that one can easily install it using the **npm install** command. 
 
-Switch to you project root directory which should already have a ***package.json*** file in it, and run command as the following:
+Switch to you project root directory which should already have a **package.json** file in it, and run command as the following:
 
     npm install webpack-php-mock --save-dev
 
-Now you get **webpack-php-mock** installed on your project, declaring it as one of the "devDependencies".
+Now you get ***webpack-php-mock*** installed on your project, declaring it as one of the "devDependencies".
 
-The next important thing is to add a configuration file to the root of the project named ***wpm.config.js***, where one can add custom settings.
+The next important thing is to add a configuration file to the root of the project named **wpm.config.js**, where one can add custom settings.
 
 ## Usage
 
@@ -35,31 +35,31 @@ The configuration descriptions are as below.
 
 ## Configuration
 
-The first thing to be anounced is that there should be a **webpack.config.js** file or the similiar to support the compiling of your project using ***webpack***. This is because ***webpack-php-mock*** is just based on ***webpack*** and provides no additional compiling stuff.
+The first thing to be anounced is that there should be a ***webpack.config.js*** file or the similiar to support the compiling of your project using **webpack**. This is because **webpack-php-mock** is just based on **webpack** and provides no additional compiling stuff.
 
 All the configuration usage could be found in the [wpm.config.js](https://github.com/chenckang/webpack-php-mock/blob/master/example/wpm.config.js) demo.
 
 #### The Root Directory
 
-***Configuration Name: root***
+**Configuration Name: root**
 
-To help to locate all the static file, you should explicitly give the "webroot" directory. The root directory only contains static files such as JavaScript files, image files, font files and so on. The root directory will be cleaned every once you run ***gulp*** or ***gulp clean***.
+To help to locate all the static file, you should explicitly give the "webroot" directory. The root directory only contains static files such as JavaScript files, image files, font files and so on. The root directory will be cleaned every once you run **gulp** or **gulp clean**.
 
     root: path.join(mockroot, 'webroot')
 
 #### Webpack Output Path
 
-***Configuration Name: outputPath***
+**Configuration Name: outputPath**
 
-This will override the the ***output.path*** configuration of the **webpack.config.js**. The purpose is put the output files to a specific place that will avoid unnecessary coverage of the ***webpack*** compiling output.
+This will override the the **output.path** configuration of the ***webpack.config.js***. The purpose is put the output files to a specific place that will avoid unnecessary coverage of the **webpack** compiling output.
 
     outputPath: path.join(mockroot, 'webroot', 'app')
 
 #### Jsons
 
-***Configuration Name: jsons.path***
+**Configuration Name: jsons.path**
 
-Specify the local path where all the json datas are located. This is mainly for the relative path of the type ***local*** rewrite rule.
+Specify the local path where all the json datas are located. This is mainly for the relative path of the type **local** rewrite rule.
 
     jsons: {
         path: path.join(mockroot, 'jsons')
@@ -67,9 +67,9 @@ Specify the local path where all the json datas are located. This is mainly for 
 
 #### PHP Connect
 
-***Configuration Name: phpconnect***
+**Configuration Name: phpconnect**
 
-This is a configuration for the plugin ***gulp-connect-php***, [click to check the detail](https://github.com/micahblu/gulp-connect-php.git)
+This is a configuration for the plugin **gulp-connect-php**, [click to check the detail](https://github.com/micahblu/gulp-connect-php.git)
 
     phpconnect: {
         host: 'localhost',
@@ -79,7 +79,7 @@ This is a configuration for the plugin ***gulp-connect-php***, [click to check t
 
 #### Server
 
-***Configuration Name: server.port***
+**Configuration Name: server.port**
 
 Just specify the port that the mock server will use.
 
@@ -89,11 +89,11 @@ Just specify the port that the mock server will use.
 
 #### Rewrite Path
 
-***Configuration Name: rewrite.paths***
+**Configuration Name: rewrite.paths**
 
 This is the main part of the configuration, which can achieve proxy, interface mock, php request redirect.
 
-The paths is an array which contain many individual rewrite rules. Each rule is one of the type: ***local***, ***proxy***, ***php***. And cookie can also be injected into each rule to help the authorization.
+The paths is an array which contain many individual rewrite rules. Each rule is one of the type: **local**, **proxy**, **php**. And cookie can also be injected into each rule to help the authorization.
 
 Here is an example:
     
@@ -130,7 +130,7 @@ Here is an example:
 Below is the description of the type value:
 
 ##### Type: local
-This is used to mock request interface, you can spcify a local json file in "to", and when you request "from", the content of the "to" will be returned. If the mime is "application/json" it will act like a real interface. The path value of the "to" is relative to the ***jsons.path*** configuration.
+This is used to mock request interface, you can spcify a local json file in "to", and when you request "from", the content of the "to" will be returned. If the mime is "application/json" it will act like a real interface. The path value of the "to" is relative to the **jsons.path** configuration.
 
 ##### Type: proxy
 
@@ -142,7 +142,7 @@ This is used for php interpretation. Request based on php can use this type.
 
 #### Deploy to Reconstruct
 
-***Configuration Name: deploy.default***
+**Configuration Name: deploy.default**
 
 This is used to reconstruct the output files to be online-like. We think that developing and testing you project in an online-like structure will help to reduce error-prone problems that will jump out once you push your codes online.
 
@@ -167,15 +167,15 @@ Below is what it look like:
         ]
     }
 
-You can find more details in **wpm.config.js** of the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demonstration.
+You can find more details in ***wpm.config.js*** of the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demonstration.
 
 ***
 
 ### Gulp and Run
 
-Once you have your **wpm.config.js** file, and you also have a project based on ***webpack***, then all you need to do is just including the gulp tasks provided into your **gulpfile.js** and the run ***gulp***.
+Once you have your ***wpm.config.js*** file, and you also have a project based on **webpack**, then all you need to do is just including the gulp tasks provided into your ***gulpfile.js*** and the run **gulp**.
 
-The ***gulpfile.js*** is as follows:
+The **gulpfile.js** is as follows:
 
     var gulp = require('gulp');
     var mock = require('webpack-php-mock');
@@ -186,17 +186,17 @@ Here is all the gulp tasks provided:
 
 * clean: which clean the root directory
 * compile: which compile the project into root directory
-* phpconnect: which start the ***gulp-connect-php***
+* phpconnect: which start the **gulp-connect-php**
 * proxy: which start the entry server
-* build: which run the ***clean***, ***compile*** and ***deploy*** in sequence
-* server: which run the ***proxy***, ***phpconnect*** in sequence
-* default: which run the ***server***, ***build*** in sequence
+* build: which run the **clean**, **compile** and **deploy** in sequence
+* server: which run the **proxy**, **phpconnect** in sequence
+* default: which run the **server**, **build** in sequence
 
 For you convenience, after getting your project ready as described above, just run
 
     gulp
 
-Then the ***webpack-php-mock*** is running. All gulp tasks can also be runned separately.
+Then the **webpack-php-mock** is running. All gulp tasks can also be runned separately.
 
 ===
 
@@ -209,30 +209,30 @@ Recently our team launched a new project based on webpack, react and so on. As w
 * We also needed mock the interface before its existance.
 * Some existing interface was ready on the remote server, a proxy server will speed up the developing in the local development environment.
 
-And there are many many reasons, I will not list them all here. So what ***webpack-php-mock*** can do: 
+And there are many many reasons, I will not list them all here. So what **webpack-php-mock** can do: 
 
 * Mock The interface with fake local data.
 * Support the PHP interpretation.
 * Support template engine based on PHP.
 * Reconstruct the files structure of you project as they are online.
-* Can be used as a proxy server for redirecting requests to the real backend server. That is an enhancement of the **interface mocking**.
+* Can be used as a proxy server for redirecting requests to the real backend server. That is an enhancement of the ***interface mocking***.
 * And so on.
 
-Additionally ***webpack-dev-server*** are also an another fantastic tool to do proxy things, but without PHP interpretation, project reconstruction and so on.
+Additionally **webpack-dev-server** are also an another fantastic tool to do proxy things, but without PHP interpretation, project reconstruction and so on.
 
 ## Dependencies
 
 ### Gulp
 
-***Webpack-php-mock*** is base on ***gulp***. That is the entry of ***webpack-php-mock*** is actually gulp tasks. So just install gulp first. [Here is gulp getting-started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+**Webpack-php-mock** is base on **gulp**. That is the entry of **webpack-php-mock** is actually gulp tasks. So just install gulp first. [Here is gulp getting-started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
 ### PHP
 
-To interpret PHP files with ***webpack-php-mock***, you should have PHP installed in your operating system first. The PHP version must be at least 5.4. ***Webpack-php-mock*** will automaticly launch the PHP application on you computer.
+To interpret PHP files with **webpack-php-mock**, you should have PHP installed in your operating system first. The PHP version must be at least 5.4. **Webpack-php-mock** will automaticly launch the PHP application on you computer.
 
 ### Other
 
-All the dependencies are list in the **package.json** file. Just check them out if you are interested.
+All the dependencies are list in the ***package.json*** file. Just check them out if you are interested.
 
 ## License
 
