@@ -144,7 +144,7 @@ This is used for php interpretation. Request based on php can use this type.
 
 #### Deploy to Reconstruct
 
-Configuration Name: deploy.default
+***Configuration Name: deploy.default***
 
 This is used to reconstruct the output files to be online-like. We think that developing and testing you project in an online-like structure will help to reduce error-prone problems that will jump out once you push your codes online.
 
