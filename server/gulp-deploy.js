@@ -28,7 +28,7 @@ module.exports = function (gulp) {
 
             console.warn('Coping ' + fm + ' to ' + to);
 
-            cp('-r', fm, to);
+            cp('-rf', fm, to);
             rm('-rf', fm);
         });
     });

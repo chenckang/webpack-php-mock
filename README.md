@@ -9,7 +9,7 @@
 
 Switch to you project root directory which should already have a ***package.json*** file in it, and run command as the following:
 
-    npm install webpack-php-mock --save-dev
+    npm install webpack-php-mock@1.0.8-alpha --save-dev
 
 Now you get **webpack-php-mock** installed on your project, declaring it as one of the "devDependencies".
 
