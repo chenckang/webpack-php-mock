@@ -150,7 +150,7 @@ So just test you project as online-like.
 
 Tips: The deploy configuration is not so completed, it is only capable of simple reconstruct such as move the template file to some other place. When you move the static files, you browser may complain that it can't find the static files for the link path just fails.
 
-Below is what it look like:
+Below is what it looks like:
 
     deploy: {
         default: [
