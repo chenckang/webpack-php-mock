@@ -37,7 +37,7 @@ The configuration descriptions are as below.
 
 ## Configuration
 
-The first thing to be anounced is that there should be a ***webpack.config.js*** file or the similiar to support the compiling of your project using ***webpack***. This is because **webpack-php-mock** is just based on **webpack** and provides no additional compiling stuff.
+The first thing to be anounced is that there should be a **webpack.config.js** file or the similiar to support the compiling of your project using ***webpack***. This is because ***webpack-php-mock*** is just based on ***webpack*** and provides no additional compiling stuff.
 
 All the configuration usage could be found in the [wpm.config.js](https://github.com/chenckang/webpack-php-mock/blob/master/example/wpm.config.js) demo.
 
@@ -53,7 +53,7 @@ To help to locate all the static file, you should explicitly give the "webroot" 
 
 ***Configuration Name: outputPath***
 
-This will override the the ***output.path*** configuration of the ***webpack.config.js***. The purpose is put the output files to a specific place that will avoid unnecessary coverage of the ***webpack*** compiling output.
+This will override the the ***output.path*** configuration of the **webpack.config.js**. The purpose is put the output files to a specific place that will avoid unnecessary coverage of the ***webpack*** compiling output.
 
     outputPath: path.join(mockroot, 'webroot', 'app')
 
@@ -95,7 +95,7 @@ Just specify the port that the mock server will use.
 
 This is the main part of the configuration, which can achieve proxy, interface mock, php request redirect.
 
-The paths is an array which contain many individual rewrite rules. Each rule is one of the type: **local**, **proxy**, **php**. And cookie can also be injected into each rule to help the authorization.
+The paths is an array which contain many individual rewrite rules. Each rule is one of the type: ***local***, ***proxy***, ***php***. And cookie can also be injected into each rule to help the authorization.
 
 Here is an example:
     
@@ -169,13 +169,13 @@ Below is what it look like:
         ]
     }
 
-You can find more details in ***wpm.config.js*** of the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demonstration.
+You can find more details in **wpm.config.js** of the [example](https://github.com/chenckang/webpack-php-mock/tree/master/example) demonstration.
 
 ***
 
 ### Gulp and Run
 
-Once you have your ***wpm.config.js*** file, and you also have a project based on ***webpack***, then all you need to do is just including the gulp tasks provided into your ***gulpfile.js*** and the run ***gulp***.
+Once you have your **wpm.config.js** file, and you also have a project based on ***webpack***, then all you need to do is just including the gulp tasks provided into your **gulpfile.js** and the run ***gulp***.
 
 The ***gulpfile.js*** is as follows:
 
