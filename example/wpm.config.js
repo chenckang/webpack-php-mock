@@ -13,6 +13,11 @@ module.exports = {
                 mime: 'application/json'
             },
             {
+                type: 'proxy',
+                from: '/app/:filename',
+                mime: 'application/json'
+            },
+            {
                 type: 'php',
                 from: '/sample.php',
                 to: 'http://localhost:8000/',
