@@ -57,6 +57,7 @@ module.exports = {
             var cookie = item.cookie;
             var cValues = cookie && cookie.values;
             var type = item.mime || 'text/plain';
+            var localpath = '';
             var cookies;
 
             if (cookie) {
@@ -80,12 +81,12 @@ module.exports = {
                 }
 
                 if (req.params.filename) {
-                    item.to = path.join(config.jsons.path, req.params.filename) + '.json';
+                    localpath = path.join(config.jsons.path, req.params.filename) + '.json';
                 } else if ('local' === item.type) {
-                    item.to = path.join(config.jsons.path, item.to);
+                    localpath = path.join(config.jsons.path, item.to);
                 }
 
-                me.isLocalFile(item.to).catch(function(){
+                me.isLocalFile(localpath).catch(function(){
                     proxy.web(req, res, {
                         target: item.to
                     });
