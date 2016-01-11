@@ -5,11 +5,11 @@
 
 ## Installation
 
-**Webpack-php-mock** has been published as a npm module, so that one can easily install it using the **npm install** command. 
+**Webpack-php-mock** has been published as a npm module, so that one can easily install it using the **npm install** command.
 
 Switch to you project root directory which should already have a ***package.json*** file in it, and run command as the following:
 
-    npm install webpack-php-mock@1.0.8-alpha --save-dev
+    npm install webpack-php-mock --save-dev
 
 Now you get **webpack-php-mock** installed on your project, declaring it as one of the "devDependencies".
 
@@ -19,8 +19,8 @@ The next important thing is to add a configuration file to the root of the proje
 
 You can quickly launch the mock stuff using the demo [example](https://github.com/chenckang/webpack-php-mock/tree/master/example).
 
-Switch to the root of the example. And run the command 
-    
+Switch to the root of the example. And run the command
+
     npm install
 
 And start it like this.
@@ -96,7 +96,7 @@ This is the main part of the configuration, which can achieve proxy, interface m
 The paths is an array which contain many individual rewrite rules. Each rule is one of the type: **local**, **proxy**, **php**. And cookie can also be injected into each rule to help the authorization.
 
 Here is an example:
-    
+
     rewrite: {
         paths: [
             {
@@ -209,7 +209,7 @@ Recently our team launched a new project based on webpack, react and so on. As w
 * We also needed mock the interface before its existance.
 * Some existing interface was ready on the remote server, a proxy server will speed up the developing in the local development environment.
 
-And there are many many reasons, I will not list them all here. So what **webpack-php-mock** can do: 
+And there are many many reasons, I will not list them all here. So what **webpack-php-mock** can do:
 
 * Mock The interface with fake local data.
 * Support the PHP interpretation.
