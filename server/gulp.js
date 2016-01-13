@@ -10,13 +10,15 @@ var deployGulp = require('./gulp-deploy');
 var phpGulp = require('./gulp-php');
 var serverGulp = require('./gulp-server');
 var watchGulp = require('./gulp-watch');
+var hotloaderGulp = require('./gulp-hotloader');
 
 cleanGulp(gulp);
 compileGulp(gulp);
 deployGulp(gulp);
 phpGulp(gulp);
 serverGulp(gulp);
-watchGulp(gulp);
+//watchGulp(gulp);
+hotloaderGulp(gulp);
 
 // Compiling task
 gulp.task('build',['clean', 'compile', 'deploy']);
@@ -24,6 +26,6 @@ gulp.task('build',['clean', 'compile', 'deploy']);
 // Local mock server task
 gulp.task('server', ['proxy', 'phpconnect']);
 
-gulp.task('default', ['server', 'build']);
+//gulp.task('default', ['server', 'build']);
 
 module.exports = gulp;

@@ -84,6 +84,9 @@ module.exports = {
                     localpath = path.join(config.jsons.path, req.params.filename) + '.json';
                 } else if ('local' === item.type) {
                     localpath = path.join(config.jsons.path, item.to);
+                } else if ('static' === item.type) {
+                    localpath = path.join(config.root, req.url);
+                    console.log(localpath);
                 }
 
                 me.isLocalFile(localpath).catch(function(){
