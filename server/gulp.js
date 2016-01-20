@@ -10,7 +10,7 @@ var deployGulp = require('./gulp-deploy');
 var phpGulp = require('./gulp-php');
 var serverGulp = require('./gulp-server');
 var watchGulp = require('./gulp-watch');
-var hotloaderGulp = require('./gulp-hotloader');
+var hotloaderGulp = require('./gulp-devserver');
 
 cleanGulp(gulp);
 compileGulp(gulp);
@@ -27,5 +27,5 @@ gulp.task('build',['clean', 'compile', 'deploy']);
 gulp.task('server', ['proxy', 'phpconnect']);
 
 //gulp.task('default', ['server', 'build']);
-
+gulp.task('hot', ['server', 'build', 'devserver']);
 module.exports = gulp;
