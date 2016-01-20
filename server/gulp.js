@@ -3,7 +3,7 @@
  * @author chenckang@gmail.com
  */
 var gulp = require('gulp');
-
+var taskListing = require('gulp-task-listing');
 var cleanGulp = require('./gulp-clean');
 var compileGulp = require('./gulp-compile');
 var deployGulp = require('./gulp-deploy');
@@ -20,12 +20,16 @@ serverGulp(gulp);
 //watchGulp(gulp);
 hotloaderGulp(gulp);
 
+// Help task
+gulp.task('help', taskListing);
+
 // Compiling task
 gulp.task('build',['clean', 'compile', 'deploy']);
 
 // Local mock server task
 gulp.task('server', ['proxy', 'phpconnect']);
 
-//gulp.task('default', ['server', 'build']);
+gulp.task('default', ['server', 'build']);
+
 gulp.task('hot', ['server', 'build', 'devserver']);
 module.exports = gulp;
