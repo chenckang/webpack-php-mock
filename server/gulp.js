@@ -29,7 +29,6 @@ gulp.task('build',['clean', 'compile', 'deploy']);
 // Local mock server task
 gulp.task('server', ['proxy', 'phpconnect']);
 
-gulp.task('default', ['server', 'build']);
-
-gulp.task('hot', ['server', 'build', 'devserver']);
+//gulp.task('default', ['server', 'build']);
+gulp.task('hot', ['build', 'devserver']);
 module.exports = gulp;

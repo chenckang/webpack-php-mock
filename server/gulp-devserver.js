@@ -18,13 +18,9 @@ module.exports = function (gulp) {
             proxy: {
                     '/*': {
                         target: 'http://localhost:' + wpmConfig.server.port || 3000,
-                        /* *
-                         * bypass the proxy
-                         * @return {boolean} false: 使用代理,不绕过; url:发送至url,绕过代理
-                         */
                         bypass: function(req, res, proxyOptions) {
-                            var bypass = wpmConfig.webpackDevServer.extraBypass || function(){};
-                            if(!bypass(req, res, proxyOptions)){
+                            var bypass = wpmConfig.webpackDevServer.extraBypass || function(){ return true};
+                            if (!bypass(req, res, proxyOptions)){
                                 return false;
                             }
                             if (req.url.indexOf('.tpl') === -1 && req.url.indexOf(publicPath) !== -1) {
