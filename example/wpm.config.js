@@ -13,6 +13,16 @@ module.exports = {
                 mime: 'application/json'
             },
             {
+                type: 'proxy',
+                from: '/app/:filename',
+                mime: 'application/json'
+            },
+            {
+                type: 'static',
+                method: 'get',
+                from: '/wlmine/app/*',
+            },
+            {
                 type: 'php',
                 from: '/sample.php',
                 to: 'http://localhost:8000/',
@@ -69,7 +79,15 @@ module.exports = {
             {
                 from: path.join(mockroot, 'webroot', 'app', 'index.tpl'),
                 to: path.join(mockroot, 'webroot', 'templates')
+            },
+            {
+                from: path.join(__dirname, 'extra'),
+                to: path.join(mockroot, 'webroot', 'wlmine', 'app'),
             }
         ]
-    }
+    },
+    exclude: {
+        clean: [path.join(mockroot, 'webroot', 'wlmine', 'app', 'pdfjs')]
+    },
+    //webpackFileName: 'webpack.production.config.js'
 };

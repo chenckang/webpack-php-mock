@@ -8,8 +8,10 @@
 
 require('shelljs/global');
 var path = require('path');
+var _ = require('lodash-node');
 var cwdSpace = process.cwd();
 var wpmConfig = require(path.join(cwdSpace, 'wpm.config.js'));
+var args = process.argv.slice(2);
 
 module.exports = function (gulp) {
     // Deploy task depending on task "compile"
@@ -20,15 +22,20 @@ module.exports = function (gulp) {
             var fm = item.from;
             var to = item.to;
             var toDir = test('-d', to) ? to : path.dirname(to);
-
             if (!test('-d', toDir)) {
                 rm('-rf', toDir);
                 mkdir('-p', toDir);
+            } else {
+                if (_.indexOf(wpmConfig.exclude.clean, item.to) !== -1) {
+                    return;
+                }
             }
-
             console.warn('Coping ' + fm + ' to ' + to);
+            cp('-r', fm, to);
 
-            cp('-rf', fm, to);
+            if (_.indexOf(item.to, wpmConfig.exclude.clean) !== -1 || args[1] === '-S') {
+                return;
+            }
             rm('-rf', fm);
         });
     });

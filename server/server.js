@@ -24,6 +24,30 @@ module.exports = {
             return item.trim();
         });
     },
+    isLocalFile: function(path) {
+        return new Promise(function (resolve, reject) {
+            fs.stat(path, function(err, stats) {
+                if (err) {
+                    reject(err);
+                }
+                else if (stats.isFile()) {
+                    resolve(path);
+                }
+            });
+        });
+    },
+    readFile: function(path) {
+        return new Promise(function (resolve, reject) {
+            fs.readFile(path, 'utf8', function(err, rsp) {
+                if (err) {
+                    reject(err);
+                }
+                else{
+                    resolve(rsp);
+                }
+            });
+        });
+    },
     run: function (config) {
         var me = this;
         app.use(express.static(config.root));
@@ -33,6 +57,7 @@ module.exports = {
             var cookie = item.cookie;
             var cValues = cookie && cookie.values;
             var type = item.mime || 'text/plain';
+            var localpath = '';
             var cookies;
 
             if (cookie) {
@@ -55,17 +80,21 @@ module.exports = {
                     req.headers.cookie = cookies.join(';');
                 }
 
-                if ('local' === item.type) {
-                    var resText = fs.readFileSync(
-                        path.join(config.jsons.path, item.to)
-                    );
-                    res.type(type);
-                    res.send(resText);
-                    return;
+                if (req.params.filename) {
+                    localpath = path.join(config.jsons.path, req.params.filename) + '.json';
+                } else if ('local' === item.type) {
+                    localpath = path.join(config.jsons.path, item.to);
                 }
 
-                proxy.web(req, res, {
-                    target: item.to
+                me.isLocalFile(localpath).catch(function(){
+                    proxy.web(req, res, {
+                        target: item.to
+                    });
+                })
+                .then(me.readFile)
+                .then(function (resText) {
+                    res.type(type);
+                    res.send(resText);
                 });
             });
         });
