@@ -5,7 +5,7 @@
 
 'use strict';
 var cwdSpace = process.cwd();
-var path = require('path')
+var path = require('path');
 var server = require('./server');
 var wpmConfig = require(path.join(cwdSpace, 'wpm.config.js'));
 
@@ -17,4 +17,3 @@ module.exports = function (gulp) {
 
     return gulp;
 }
-
