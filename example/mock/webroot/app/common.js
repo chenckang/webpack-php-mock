@@ -20819,8 +20819,6 @@
 	 * This source code is licensed under the BSD-style license found in the
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * @providesModule invariant
 	 */
 	
 	'use strict';
@@ -20854,9 +20852,9 @@
 	      var args = [a, b, c, d, e, f];
 	      var argIndex = 0;
 	      error = new Error(
-	        'Invariant Violation: ' +
 	        format.replace(/%s/g, function() { return args[argIndex++]; })
 	      );
+	      error.name = 'Invariant Violation';
 	    }
 	
 	    error.framesToPop = 1; // we don't care about invariant's own frame
@@ -24581,6 +24579,7 @@
 	    boundListeners: [],
 	    lifecycleEvents: {},
 	    actionListeners: {},
+	    actionListenerHandlers: {},
 	    publicMethods: {},
 	    handlesOwnErrors: false
 	  }, extras);
@@ -25152,7 +25151,13 @@
 	    // You can pass in the constant or the function itself
 	    var key = symbol.id ? symbol.id : symbol;
 	    this.actionListeners[key] = this.actionListeners[key] || [];
-	    this.actionListeners[key].push(handler.bind(this));
+	    this.actionListenerHandlers[key] = this.actionListenerHandlers[key] || [];
+	
+	    if (this.actionListenerHandlers[key].indexOf(handler) === -1) {
+	      this.actionListenerHandlers[key].push(handler);
+	      this.actionListeners[key].push(handler.bind(this));
+	    }
+	
 	    this.boundListeners.push(key);
 	  },
 	

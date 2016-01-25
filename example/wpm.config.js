@@ -88,6 +88,6 @@ module.exports = {
     },
     exclude: {
         clean: [path.join(mockroot, 'webroot', 'wlmine', 'app', 'pdfjs')]
-    },
+    }
     //webpackFileName: 'webpack.production.config.js'
 };
